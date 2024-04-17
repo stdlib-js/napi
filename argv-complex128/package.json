@@ -1,7 +1,7 @@
 {
-  "name": "@stdlib/napi",
-  "version": "0.2.1",
-  "description": "C APIs for creating Node-API native add-ons.",
+  "name": "@stdlib/napi/argv-complex128",
+  "version": "0.0.0",
+  "description": "Convert a Node-API value to a double-precision complex floating-point number.",
   "license": "Apache-2.0",
   "author": {
     "name": "The Stdlib Authors",
@@ -15,39 +15,27 @@
   ],
   "main": "./lib",
   "browser": "./lib/browser.js",
+  "gypfile": true,
   "directories": {
     "doc": "./docs",
     "example": "./examples",
     "include": "./include",
     "lib": "./lib",
+    "src": "./src",
     "test": "./test"
   },
   "types": "./docs/types",
-  "scripts": {
-    "test": "make test",
-    "test-cov": "make test-cov",
-    "examples": "make examples"
-  },
-  "homepage": "https://stdlib.io",
+  "scripts": {},
+  "homepage": "https://github.com/stdlib-js/stdlib",
   "repository": {
     "type": "git",
-    "url": "git://github.com/stdlib-js/napi.git"
+    "url": "git://github.com/stdlib-js/stdlib.git"
   },
   "bugs": {
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
-  "dependencies": {
-    "@stdlib/utils": "github:stdlib-js/utils#main"
-  },
-  "devDependencies": {
-    "@stdlib/array": "github:stdlib-js/array#main",
-    "@stdlib/assert": "github:stdlib-js/assert#main",
-    "@stdlib/complex": "github:stdlib-js/complex#main",
-    "@stdlib/strided": "github:stdlib-js/strided#main",
-    "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
-    "istanbul": "^0.4.1",
-    "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
-  },
+  "dependencies": {},
+  "devDependencies": {},
   "engines": {
     "node": ">=0.10.0",
     "npm": ">2.7.0"
@@ -66,17 +54,19 @@
   "keywords": [
     "stdlib",
     "napi",
-    "n-api",
-    "node-api",
-    "addon"
+    "native",
+    "addon",
+    "utilities",
+    "utils",
+    "macros",
+    "double",
+    "complex",
+    "cmplx",
+    "complex128"
   ],
   "__stdlib__": {
     "envs": {
       "browser": false
     }
-  },
-  "funding": {
-    "type": "opencollective",
-    "url": "https://opencollective.com/stdlib"
   }
 }
