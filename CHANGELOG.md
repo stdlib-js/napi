@@ -2,6 +2,16 @@
 
 > Package changelog.
 
+<section class="release" id="v0.3.1">
+
+## 0.3.1 (2024-08-18)
+
+No changes reported for this release.
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.3.0">
 
 ## 0.3.0 (2024-08-17)
@@ -10,7 +20,7 @@
 
 ### Packages
 
-<section class="package" id="napi-unreleased">
+<section class="package" id="napi-v0.3.0">
 
 #### [@stdlib/napi](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi)
 
@@ -36,7 +46,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="napi-argv-complex128-unreleased">
+<section class="package" id="napi-argv-complex128-v0.3.0">
 
 #### [@stdlib/napi/argv-complex128](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-complex128)
 
@@ -80,7 +90,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="napi-argv-complex64-unreleased">
+<section class="package" id="napi-argv-complex64-v0.3.0">
 
 #### [@stdlib/napi/argv-complex64](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-complex64)
 
@@ -124,7 +134,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="napi-argv-int64-unreleased">
+<section class="package" id="napi-argv-int64-v0.3.0">
 
 #### [@stdlib/napi/argv-int64](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-int64)
 
@@ -146,7 +156,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="napi-create-complex-like-unreleased">
+<section class="package" id="napi-create-complex-like-v0.3.0">
 
 #### [@stdlib/napi/create-complex-like](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/create-complex-like)
 
@@ -178,7 +188,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="napi-create-double-unreleased">
+<section class="package" id="napi-create-double-v0.3.0">
 
 #### [@stdlib/napi/create-double](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/create-double)
 
@@ -200,7 +210,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="napi-create-int32-unreleased">
+<section class="package" id="napi-create-int32-v0.3.0">
 
 #### [@stdlib/napi/create-int32](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/create-int32)
 
@@ -222,7 +232,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="napi-create-uint32-unreleased">
+<section class="package" id="napi-create-uint32-v0.3.0">
 
 #### [@stdlib/napi/create-uint32](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/create-uint32)
 
