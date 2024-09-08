@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`3de7b35`](https://github.com/stdlib-js/stdlib/commit/3de7b35ccace9db83573ae5225c4e5f4b3aeda3d) - update namespace
 -   [`dac29fd`](https://github.com/stdlib-js/stdlib/commit/dac29fd57d7328ed0cb7866307c07b3b8df92043) - update namespace
 -   [`c3b2e41`](https://github.com/stdlib-js/stdlib/commit/c3b2e41f64cbb3dff1333ed18a03647674db528c) - update namespace
 -   [`27fb5fe`](https://github.com/stdlib-js/stdlib/commit/27fb5fedd0f9ae9eab7848c929f9b8da3f9633e9) - update namespace
@@ -51,6 +52,28 @@
 ##### Features
 
 -   [`5b9a31e`](https://github.com/stdlib-js/stdlib/commit/5b9a31e14e9bfddc64e6f7dc2b1edecd3871e675) - add `napi/argv-strided-complex128array`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="napi-argv-strided-complex64array2d-unreleased">
+
+#### [@stdlib/napi/argv-strided-complex64array2d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-strided-complex64array2d)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`d8a3f4f`](https://github.com/stdlib-js/stdlib/commit/d8a3f4fafb8fadf6eb5af9c9ee79c2bfd7cb5692) - add `napi/argv-strided-complex64array2d`
 
 </section>
 
@@ -312,6 +335,9 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <details>
 
+-   [`3de7b35`](https://github.com/stdlib-js/stdlib/commit/3de7b35ccace9db83573ae5225c4e5f4b3aeda3d) - **feat:** update namespace _(by Athan Reines)_
+-   [`10af3be`](https://github.com/stdlib-js/stdlib/commit/10af3bece62e2c85dd36c33f13170233e16da246) - **test:** fix test descriptions _(by Athan Reines)_
+-   [`d8a3f4f`](https://github.com/stdlib-js/stdlib/commit/d8a3f4fafb8fadf6eb5af9c9ee79c2bfd7cb5692) - **feat:** add `napi/argv-strided-complex64array2d` _(by Athan Reines)_
 -   [`dac29fd`](https://github.com/stdlib-js/stdlib/commit/dac29fd57d7328ed0cb7866307c07b3b8df92043) - **feat:** update namespace _(by Athan Reines)_
 -   [`5b9a31e`](https://github.com/stdlib-js/stdlib/commit/5b9a31e14e9bfddc64e6f7dc2b1edecd3871e675) - **feat:** add `napi/argv-strided-complex128array` _(by Athan Reines)_
 -   [`c3b2e41`](https://github.com/stdlib-js/stdlib/commit/c3b2e41f64cbb3dff1333ed18a03647674db528c) - **feat:** update namespace _(by Athan Reines)_

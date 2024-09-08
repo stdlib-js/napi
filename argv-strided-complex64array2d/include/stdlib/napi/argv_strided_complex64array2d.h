@@ -16,8 +16,8 @@
 * limitations under the License.
 */
 
-#ifndef STDLIB_NAPI_ARGV_STRIDED_COMPLEX128ARRAY2D_H
-#define STDLIB_NAPI_ARGV_STRIDED_COMPLEX128ARRAY2D_H
+#ifndef STDLIB_NAPI_ARGV_STRIDED_COMPLEX64ARRAY2D_H
+#define STDLIB_NAPI_ARGV_STRIDED_COMPLEX64ARRAY2D_H
 
 #include "stdlib/napi/argv.h"
 #include "stdlib/assert/napi/status_ok.h"
@@ -25,7 +25,7 @@
 #include <stdint.h>
 
 /**
-* Macro for converting an add-on callback argument to a strided double-precision complex floating-point array.
+* Macro for converting an add-on callback argument to a strided single-precision complex floating-point array.
 *
 * @param env        environment under which the function is invoked
 * @param X          output variable name for the array
@@ -37,13 +37,13 @@
 * @param index      argument index
 *
 * @example
-* #include "stdlib/napi/argv_strided_complex128array2d.h"
+* #include "stdlib/napi/argv_strided_complex64array2d.h"
 * #include "stdlib/napi_argv_int64.h"
 * #include "stdlib/napi/argv.h"
 * #include <node_api.h>
 * #include <stdint.h>
 *
-* static void fcn( const int64_t M, const int64_t N, const double *X, const int64_t strideX1, const int64_t strideX2, double *Y, const int64_t strideY1, const int64_t strideY2 ) {
+* static void fcn( const int64_t M, const int64_t N, const float *X, const int64_t strideX1, const int64_t strideX2, float *Y, const int64_t strideY1, const int64_t strideY2 ) {
 *     int64_t i;
 *     int64_t j;
 *     for ( i = 0; i < M*2; i += 2 ) {
@@ -71,20 +71,20 @@
 *     STDLIB_NAPI_ARGV_INT64( env, strideY2, argv, 7 );
 *
 *     // Convert the arrays to C types:
-*     STDLIB_NAPI_ARGV_STRIDED_COMPLEX128ARRAY2D( env, X, M, N, strideX1, strideX2, argv, 2 );
-*     STDLIB_NAPI_ARGV_STRIDED_COMPLEX128ARRAY2D( env, Y, M, N, strideY1, strideY2, argv, 5 );
+*     STDLIB_NAPI_ARGV_STRIDED_COMPLEX64ARRAY2D( env, X, M, N, strideX1, strideX2, argv, 2 );
+*     STDLIB_NAPI_ARGV_STRIDED_COMPLEX64ARRAY2D( env, Y, M, N, strideY1, strideY2, argv, 5 );
 *
 *     // ...
 *
 *     fcn( M, N, X, strideX1, strideX2, Y, strideY1, strideY2 );
 * }
 */
-#define STDLIB_NAPI_ARGV_STRIDED_COMPLEX128ARRAY2D( env, X, M, N, strideX1, strideX2, argv, index ) \
-	napi_value __STDLIB_NAPI_ARGV_STRIDED_COMPLEX128ARRAY2D_ERR_ ## X;         \
-	double *X;                                                                 \
-	stdlib_napi_argv_strided_complex128array2d( env, M, N, strideX1, strideX2, argv[ index ], &X, "invalid argument. " STDLIB_NAPI_ARGV_INDEX2ORDINAL( index ) " argument must be a Float64Array.", "invalid argument. " STDLIB_NAPI_ARGV_INDEX2ORDINAL( index ) " argument has insufficient elements based on the associated strides and the number of rows and columns.", &__STDLIB_NAPI_ARGV_STRIDED_COMPLEX128ARRAY2D_ERR_ ## X ); \
-	if ( __STDLIB_NAPI_ARGV_STRIDED_COMPLEX128ARRAY2D_ERR_ ## X != NULL ) {    \
-		STDLIB_ASSERT_NAPI_STATUS_OK_RET_NULL( env, napi_throw( env, __STDLIB_NAPI_ARGV_STRIDED_COMPLEX128ARRAY2D_ERR_ ## X ), "" ) \
+#define STDLIB_NAPI_ARGV_STRIDED_COMPLEX64ARRAY2D( env, X, M, N, strideX1, strideX2, argv, index ) \
+	napi_value __STDLIB_NAPI_ARGV_STRIDED_COMPLEX64ARRAY2D_ERR_ ## X;          \
+	float *X;                                                                  \
+	stdlib_napi_argv_strided_complex64array2d( env, M, N, strideX1, strideX2, argv[ index ], &X, "invalid argument. " STDLIB_NAPI_ARGV_INDEX2ORDINAL( index ) " argument must be a Float32Array.", "invalid argument. " STDLIB_NAPI_ARGV_INDEX2ORDINAL( index ) " argument has insufficient elements based on the associated strides and the number of rows and columns.", &__STDLIB_NAPI_ARGV_STRIDED_COMPLEX64ARRAY2D_ERR_ ## X ); \
+	if ( __STDLIB_NAPI_ARGV_STRIDED_COMPLEX64ARRAY2D_ERR_ ## X != NULL ) {     \
+		STDLIB_ASSERT_NAPI_STATUS_OK_RET_NULL( env, napi_throw( env, __STDLIB_NAPI_ARGV_STRIDED_COMPLEX64ARRAY2D_ERR_ ## X ), "" ) \
 		return NULL;                                                           \
 	}
 
@@ -96,12 +96,12 @@ extern "C" {
 #endif
 
 /**
-* Converts a Node-API value representing a two-dimensional strided array to a double-precision complex floating-point array.
+* Converts a Node-API value representing a two-dimensional strided array to a single-precision complex floating-point array.
 */
-napi_status stdlib_napi_argv_strided_complex128array2d( const napi_env env, const int64_t M, const int64_t N, const int64_t strideX1, const int64_t strideX2, const napi_value value, double **data, const char *message1, const char *message2, napi_value *err );
+napi_status stdlib_napi_argv_strided_complex64array2d( const napi_env env, const int64_t M, const int64_t N, const int64_t strideX1, const int64_t strideX2, const napi_value value, float **data, const char *message1, const char *message2, napi_value *err );
 
 #ifdef __cplusplus
 }
 #endif
 
-#endif // !STDLIB_NAPI_ARGV_STRIDED_COMPLEX128ARRAY2D_H
+#endif // !STDLIB_NAPI_ARGV_STRIDED_COMPLEX64ARRAY2D_H

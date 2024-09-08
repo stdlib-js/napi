@@ -24,7 +24,7 @@ var resolve = require( 'path' ).resolve;
 var tape = require( 'tape' );
 var typedarray = require( '@stdlib/array/typed' );
 var filledarray = require( '@stdlib/array/filled' );
-var reinterpret = require( '@stdlib/strided/base/reinterpret-complex128' );
+var reinterpret = require( '@stdlib/strided/base/reinterpret-complex64' );
 var tryRequire = require( '@stdlib/utils/try-require' );
 
 
@@ -44,7 +44,7 @@ tape( 'main export is a function', opts, function test( t ) {
 	t.end();
 });
 
-tape( 'the function throws an error if provided argument which is not a Float64Array', opts, function test( t ) {
+tape( 'the function throws an error if provided argument which is not a Float32Array', opts, function test( t ) {
 	var values;
 	var i;
 
@@ -57,7 +57,7 @@ tape( 'the function throws an error if provided argument which is not a Float64A
 		[],
 		{},
 		typedarray( 10, 'int32' ),
-		typedarray( 10, 'float32' )
+		typedarray( 10, 'float64' )
 	];
 	for ( i = 0; i < values.length; i++ ) {
 		t.throws( badValue( values[ i ] ), Error, 'throws an error when provided '+values[ i ] );
@@ -71,12 +71,12 @@ tape( 'the function throws an error if provided argument which is not a Float64A
 	}
 });
 
-tape( 'the function does not throw an error if provided a Float64Array', opts, function test( t ) {
+tape( 'the function does not throw an error if provided a Float32Array', opts, function test( t ) {
 	var expected;
 	var x;
 
-	x = typedarray( 4, 'complex128' );
-	expected = filledarray( 1.0, 8, 'float64' );
+	x = typedarray( 4, 'complex64' );
+	expected = filledarray( 1.0, 8, 'float32' );
 
 	addon( x );
 	t.deepEqual( reinterpret( x, 0 ), expected, 'returns expected value' );
