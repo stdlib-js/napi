@@ -54,6 +54,7 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <details>
 
+-   [`95d61ed`](https://github.com/stdlib-js/stdlib/commit/95d61edd60198d6e8087028db85c4dbfb0ed5d40) - **docs:** fix macro name _(by Athan Reines)_
 -   [`6d9052e`](https://github.com/stdlib-js/stdlib/commit/6d9052e1c0fbfb835a84ce3c2cf1ded578d282e4) - **feat:** add macro to export a function with a method _(by Athan Reines)_
 
 </details>
