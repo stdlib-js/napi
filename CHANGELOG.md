@@ -10,6 +10,50 @@
 
 ### Packages
 
+<section class="package" id="napi-unreleased">
+
+#### [@stdlib/napi](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`cf28c1a`](https://github.com/stdlib-js/stdlib/commit/cf28c1acda43bf58cdb1f6d89be0404c85cb724d) - update namespace
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="napi-argv-strided-float64array2d-unreleased">
+
+#### [@stdlib/napi/argv-strided-float64array2d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-strided-float64array2d)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`785a438`](https://github.com/stdlib-js/stdlib/commit/785a43847b116927f8dc0b1e7f5e5231dbaf7939) - add `napi/argv-strided-float64array2d`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="napi-export-unreleased">
 
 #### [@stdlib/napi/export](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/export)
@@ -54,6 +98,8 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <details>
 
+-   [`cf28c1a`](https://github.com/stdlib-js/stdlib/commit/cf28c1acda43bf58cdb1f6d89be0404c85cb724d) - **feat:** update namespace _(by Athan Reines)_
+-   [`785a438`](https://github.com/stdlib-js/stdlib/commit/785a43847b116927f8dc0b1e7f5e5231dbaf7939) - **feat:** add `napi/argv-strided-float64array2d` _(by Athan Reines)_
 -   [`95d61ed`](https://github.com/stdlib-js/stdlib/commit/95d61edd60198d6e8087028db85c4dbfb0ed5d40) - **docs:** fix macro name _(by Athan Reines)_
 -   [`6d9052e`](https://github.com/stdlib-js/stdlib/commit/6d9052e1c0fbfb835a84ce3c2cf1ded578d282e4) - **feat:** add macro to export a function with a method _(by Athan Reines)_
 
