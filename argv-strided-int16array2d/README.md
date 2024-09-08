@@ -20,9 +20,9 @@ limitations under the License.
 
 <!-- lint disable maximum-heading-length -->
 
-# argv_strided_float32array2d
+# argv_strided_int16array2d
 
-> Convert a Node-API value representing a two-dimensional strided array to a single-precision floating-point array.
+> Convert a Node-API value representing a two-dimensional strided array to a signed 16-bit integer array.
 
 <!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
 
@@ -39,7 +39,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-var headerDir = require( '@stdlib/napi/argv-strided-float32array2d' );
+var headerDir = require( '@stdlib/napi/argv-strided-int16array2d' );
 ```
 
 #### headerDir
@@ -70,7 +70,7 @@ var dir = headerDir;
 ## Examples
 
 ```javascript
-var headerDir = require( '@stdlib/napi/argv-strided-float32array2d' );
+var headerDir = require( '@stdlib/napi/argv-strided-int16array2d' );
 
 console.log( headerDir );
 // => <string>
@@ -103,15 +103,15 @@ console.log( headerDir );
 ### Usage
 
 ```c
-#include "stdlib/napi/argv_strided_float32array2d.h"
+#include "stdlib/napi/argv_strided_int16array2d.h"
 ```
 
-#### stdlib_napi_argv_strided_float32array2d( env, M, N, strideX1, strideX2, value, \*\*data, \*message1, \*message2, \*err )
+#### stdlib_napi_argv_strided_int16array2d( env, M, N, strideX1, strideX2, value, \*\*data, \*message1, \*message2, \*err )
 
-Converts a Node-API value representing a two-dimensional strided array to a single-precision floating-point array.
+Converts a Node-API value representing a two-dimensional strided array to a signed 16-bit integer array.
 
 ```c
-#include "stdlib/napi/argv_strided_float32array2d.h"
+#include "stdlib/napi/argv_strided_int16array2d.h"
 #include <node_api.h>
 #include <stdint.h>
 
@@ -127,9 +127,9 @@ static napi_value addon( napi_env env, napi_callback_info info ) {
 
     // ...
 
-    float *X;
+    int16_t *X;
     napi_value err;
-    napi_status status = stdlib_napi_argv_strided_float32array2d( env, M, N, strideX1, strideX2, value, &X, "Must be a typed array.", "Must have sufficient elements.", &err );
+    napi_status status = stdlib_napi_argv_strided_int16array2d( env, M, N, strideX1, strideX2, value, &X, "Must be a typed array.", "Must have sufficient elements.", &err );
     assert( status == napi_ok );
     if ( err != NULL ) {
         assert( napi_throw( env, err ) == napi_ok );
@@ -148,29 +148,29 @@ The function accepts the following arguments:
 -   **strideX1**: `[in] int64_t` stride length along the first dimension.
 -   **strideX2**: `[in] int64_t` stride length along the second dimension.
 -   **value**: `[in] napi_value` Node-API value.
--   **data**: `[out] float**` pointer for returning a reference to the output array.
--   **message1**: `[in] char*` error message if a value is not a `Float32Array`.
+-   **data**: `[out] int16_t**` pointer for returning a reference to the output array.
+-   **message1**: `[in] char*` error message if a value is not an `Int16Array`.
 -   **message2**: `[in] char*` error message if a value has insufficient elements.
 -   **err**: `[out] napi_value*` pointer for storing a JavaScript error. If not provided a number, the function sets `err` with a JavaScript error; otherwise, `err` is set to `NULL`.
 
 ```c
-napi_status stdlib_napi_argv_strided_float32array2d( const napi_env env, const int64_t M, const int64_t N, const int64_t strideX1, const int64_t strideX2, const napi_value value, float **data, const char *message1, const char *message2, napi_value *err );
+napi_status stdlib_napi_argv_strided_int16array2d( const napi_env env, const int64_t M, const int64_t N, const int64_t strideX1, const int64_t strideX2, const napi_value value, int16_t **data, const char *message1, const char *message2, napi_value *err );
 ```
 
 The function returns a `napi_status` status code indicating success or failure (returns `napi_ok` if success).
 
-#### STDLIB_NAPI_ARGV_STRIDED_FLOAT32ARRAY2D( env, X, M, N, strideX1, strideX2, argv, index )
+#### STDLIB_NAPI_ARGV_STRIDED_INT16ARRAY2D( env, X, M, N, strideX1, strideX2, argv, index )
 
-Macro for converting an add-on callback argument to a strided single-precision floating-point array.
+Macro for converting an add-on callback argument to a strided signed 16-bit integer array.
 
 ```c
-#include "stdlib/napi/argv_strided_float32array2d.h"
+#include "stdlib/napi/argv_strided_int16array2d.h"
 #include "stdlib/napi_argv_int64.h"
 #include "stdlib/napi/argv.h"
 #include <node_api.h>
 #include <stdint.h>
 
-static void fcn( const int64_t M, const int64_t N, const float *X, const int64_t strideX1, const int64_t strideX2, float *Y, const int64_t strideY1, const int64_t strideY2 ) {
+static void fcn( const int64_t M, const int64_t N, const int16_t *X, const int64_t strideX1, const int64_t strideX2, int16_t *Y, const int64_t strideY1, const int64_t strideY2 ) {
     int64_t i;
     int64_t j;
     for ( i = 0; i < M; i++ ) {
@@ -197,8 +197,8 @@ static napi_value addon( napi_env env, napi_callback_info info ) {
     STDLIB_NAPI_ARGV_INT64( env, strideY2, argv, 7 );
 
     // Convert the arrays to C types:
-    STDLIB_NAPI_ARGV_STRIDED_FLOAT32ARRAY2D( env, X, M, N, strideX1, strideX2, argv, 2 );
-    STDLIB_NAPI_ARGV_STRIDED_FLOAT32ARRAY2D( env, Y, M, N, strideY1, strideY2, argv, 5 );
+    STDLIB_NAPI_ARGV_STRIDED_INT16ARRAY2D( env, X, M, N, strideX1, strideX2, argv, 2 );
+    STDLIB_NAPI_ARGV_STRIDED_INT16ARRAY2D( env, Y, M, N, strideY1, strideY2, argv, 5 );
 
     // ...
 

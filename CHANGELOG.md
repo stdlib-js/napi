@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`2120d56`](https://github.com/stdlib-js/stdlib/commit/2120d56805c81f3c32fe2c386d600f9a079f4905) - update namespace
 -   [`82dd5fa`](https://github.com/stdlib-js/stdlib/commit/82dd5fa26d1e6674340ce729d085b942a89e325a) - update namespace
 -   [`d882fa9`](https://github.com/stdlib-js/stdlib/commit/d882fa9e5819d45ccbbcb81cb49975ad074d0252) - update namespace
 -   [`cf28c1a`](https://github.com/stdlib-js/stdlib/commit/cf28c1acda43bf58cdb1f6d89be0404c85cb724d) - update namespace
@@ -67,6 +68,28 @@
 ##### Features
 
 -   [`785a438`](https://github.com/stdlib-js/stdlib/commit/785a43847b116927f8dc0b1e7f5e5231dbaf7939) - add `napi/argv-strided-float64array2d`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="napi-argv-strided-int16array2d-unreleased">
+
+#### [@stdlib/napi/argv-strided-int16array2d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-strided-int16array2d)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`c35a072`](https://github.com/stdlib-js/stdlib/commit/c35a072d0d834cd9c79949e9d7a0922643a0747b) - add `napi/argv-strided-int16array2d`
 
 </section>
 
@@ -144,6 +167,9 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <details>
 
+-   [`2120d56`](https://github.com/stdlib-js/stdlib/commit/2120d56805c81f3c32fe2c386d600f9a079f4905) - **feat:** update namespace _(by Athan Reines)_
+-   [`6ccbed0`](https://github.com/stdlib-js/stdlib/commit/6ccbed041b34b95f10ac80330eeebd48d73153dd) - **docs:** fix grammar in comments _(by Athan Reines)_
+-   [`c35a072`](https://github.com/stdlib-js/stdlib/commit/c35a072d0d834cd9c79949e9d7a0922643a0747b) - **feat:** add `napi/argv-strided-int16array2d` _(by Athan Reines)_
 -   [`82dd5fa`](https://github.com/stdlib-js/stdlib/commit/82dd5fa26d1e6674340ce729d085b942a89e325a) - **feat:** update namespace _(by Athan Reines)_
 -   [`a8f51b6`](https://github.com/stdlib-js/stdlib/commit/a8f51b69d46c9fd288ecb828a75582cfd6f36aa3) - **feat:** add `napi/argv-strided-int32array2d` _(by Athan Reines)_
 -   [`e74ff00`](https://github.com/stdlib-js/stdlib/commit/e74ff0063ef3875807d2bc722117cbf78340c096) - **docs:** fix grammar in comments _(by Athan Reines)_
