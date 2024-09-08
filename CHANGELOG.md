@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`82dd5fa`](https://github.com/stdlib-js/stdlib/commit/82dd5fa26d1e6674340ce729d085b942a89e325a) - update namespace
 -   [`d882fa9`](https://github.com/stdlib-js/stdlib/commit/d882fa9e5819d45ccbbcb81cb49975ad074d0252) - update namespace
 -   [`cf28c1a`](https://github.com/stdlib-js/stdlib/commit/cf28c1acda43bf58cdb1f6d89be0404c85cb724d) - update namespace
 
@@ -77,6 +78,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="napi-argv-strided-int32array2d-unreleased">
+
+#### [@stdlib/napi/argv-strided-int32array2d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-strided-int32array2d)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`a8f51b6`](https://github.com/stdlib-js/stdlib/commit/a8f51b69d46c9fd288ecb828a75582cfd6f36aa3) - add `napi/argv-strided-int32array2d`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="napi-export-unreleased">
 
 #### [@stdlib/napi/export](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/export)
@@ -121,6 +144,8 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <details>
 
+-   [`82dd5fa`](https://github.com/stdlib-js/stdlib/commit/82dd5fa26d1e6674340ce729d085b942a89e325a) - **feat:** update namespace _(by Athan Reines)_
+-   [`a8f51b6`](https://github.com/stdlib-js/stdlib/commit/a8f51b69d46c9fd288ecb828a75582cfd6f36aa3) - **feat:** add `napi/argv-strided-int32array2d` _(by Athan Reines)_
 -   [`e74ff00`](https://github.com/stdlib-js/stdlib/commit/e74ff0063ef3875807d2bc722117cbf78340c096) - **docs:** fix grammar in comments _(by Athan Reines)_
 -   [`d882fa9`](https://github.com/stdlib-js/stdlib/commit/d882fa9e5819d45ccbbcb81cb49975ad074d0252) - **feat:** update namespace _(by Athan Reines)_
 -   [`ed93284`](https://github.com/stdlib-js/stdlib/commit/ed932844bcde2d4e8dfe49010e8ce96381c98fdf) - **feat:** add `napi/argv-strided-float32array2d` _(by Athan Reines)_
