@@ -20,7 +20,30 @@
 
 ##### Features
 
+-   [`d882fa9`](https://github.com/stdlib-js/stdlib/commit/d882fa9e5819d45ccbbcb81cb49975ad074d0252) - update namespace
 -   [`cf28c1a`](https://github.com/stdlib-js/stdlib/commit/cf28c1acda43bf58cdb1f6d89be0404c85cb724d) - update namespace
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="napi-argv-strided-float32array2d-unreleased">
+
+#### [@stdlib/napi/argv-strided-float32array2d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-strided-float32array2d)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`ed93284`](https://github.com/stdlib-js/stdlib/commit/ed932844bcde2d4e8dfe49010e8ce96381c98fdf) - add `napi/argv-strided-float32array2d`
 
 </section>
 
@@ -98,6 +121,8 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <details>
 
+-   [`d882fa9`](https://github.com/stdlib-js/stdlib/commit/d882fa9e5819d45ccbbcb81cb49975ad074d0252) - **feat:** update namespace _(by Athan Reines)_
+-   [`ed93284`](https://github.com/stdlib-js/stdlib/commit/ed932844bcde2d4e8dfe49010e8ce96381c98fdf) - **feat:** add `napi/argv-strided-float32array2d` _(by Athan Reines)_
 -   [`cf28c1a`](https://github.com/stdlib-js/stdlib/commit/cf28c1acda43bf58cdb1f6d89be0404c85cb724d) - **feat:** update namespace _(by Athan Reines)_
 -   [`785a438`](https://github.com/stdlib-js/stdlib/commit/785a43847b116927f8dc0b1e7f5e5231dbaf7939) - **feat:** add `napi/argv-strided-float64array2d` _(by Athan Reines)_
 -   [`95d61ed`](https://github.com/stdlib-js/stdlib/commit/95d61edd60198d6e8087028db85c4dbfb0ed5d40) - **docs:** fix macro name _(by Athan Reines)_
