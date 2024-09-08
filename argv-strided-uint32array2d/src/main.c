@@ -16,15 +16,15 @@
 * limitations under the License.
 */
 
-#include "stdlib/napi/argv_strided_int32array2d.h"
-#include "stdlib/napi/argv_int32array.h"
+#include "stdlib/napi/argv_strided_uint32array2d.h"
+#include "stdlib/napi/argv_uint32array.h"
 #include "stdlib/assert/napi/status_ok.h"
 #include <node_api.h>
 #include <stdint.h>
 #include <stdlib.h>
 
 /**
-* Converts a Node-API value representing a two-dimensional strided array to a signed 32-bit integer array.
+* Converts a Node-API value representing a two-dimensional strided array to an unsigned 32-bit integer array.
 *
 * @param env       environment under which the function is invoked
 * @param M         number of rows
@@ -33,13 +33,13 @@
 * @param strideX2  stride length along the second dimension
 * @param value     Node-API value
 * @param data      pointer for returning a reference to the output array
-* @param message1  error message if a value is not an Int32Array
+* @param message1  error message if a value is not a Uint32Array
 * @param message2  error message if a value has insufficient elements
 * @param err       pointer for storing a JavaScript error
 * @return          status code indicating success or failure (returns `napi_ok` if success)
 *
 * @example
-* #include "stdlib/napi/argv_strided_int32array2d.h"
+* #include "stdlib/napi/argv_strided_uint32array2d.h"
 * #include <node_api.h>
 * #include <stdint.h>
 *
@@ -55,9 +55,9 @@
 *
 *     // ...
 *
-*     int32_t *X;
+*     uint32_t *X;
 *     napi_value err;
-*     napi_status status = stdlib_napi_argv_strided_int32array2d( env, M, N, strideX1, strideX2, value, &X, "Must be a typed array.", "Must have sufficient elements.", &err );
+*     napi_status status = stdlib_napi_argv_strided_uint32array2d( env, M, N, strideX1, strideX2, value, &X, "Must be a typed array.", "Must have sufficient elements.", &err );
 *     assert( status == napi_ok );
 *     if ( err != NULL ) {
 *         assert( napi_throw( env, err ) == napi_ok );
@@ -67,9 +67,9 @@
 *     // ...
 * }
 */
-napi_status stdlib_napi_argv_strided_int32array2d( const napi_env env, const int64_t M, const int64_t N, const int64_t strideX1, const int64_t strideX2, const napi_value value, int32_t **data, const char *message1, const char *message2, napi_value *err ) {
+napi_status stdlib_napi_argv_strided_uint32array2d( const napi_env env, const int64_t M, const int64_t N, const int64_t strideX1, const int64_t strideX2, const napi_value value, uint32_t **data, const char *message1, const char *message2, napi_value *err ) {
 	int64_t len;
-	stdlib_napi_argv_int32array( env, value, data, &len, message1, err );
+	stdlib_napi_argv_uint32array( env, value, data, &len, message1, err );
 	if ( *err != NULL ) {
 		return napi_ok;
 	}

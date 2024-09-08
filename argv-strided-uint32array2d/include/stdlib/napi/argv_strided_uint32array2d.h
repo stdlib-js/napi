@@ -16,8 +16,8 @@
 * limitations under the License.
 */
 
-#ifndef STDLIB_NAPI_ARGV_STRIDED_INT32ARRAY2D_H
-#define STDLIB_NAPI_ARGV_STRIDED_INT32ARRAY2D_H
+#ifndef STDLIB_NAPI_ARGV_STRIDED_UINT32ARRAY2D_H
+#define STDLIB_NAPI_ARGV_STRIDED_UINT32ARRAY2D_H
 
 #include "stdlib/napi/argv.h"
 #include "stdlib/assert/napi/status_ok.h"
@@ -25,7 +25,7 @@
 #include <stdint.h>
 
 /**
-* Macro for converting an add-on callback argument to a strided signed 32-bit integer array.
+* Macro for converting an add-on callback argument to a strided unsigned 32-bit integer array.
 *
 * @param env        environment under which the function is invoked
 * @param X          output variable name for the array
@@ -37,13 +37,13 @@
 * @param index      argument index
 *
 * @example
-* #include "stdlib/napi/argv_strided_int32array2d.h"
+* #include "stdlib/napi/argv_strided_uint32array2d.h"
 * #include "stdlib/napi_argv_int64.h"
 * #include "stdlib/napi/argv.h"
 * #include <node_api.h>
 * #include <stdint.h>
 *
-* static void fcn( const int64_t M, const int64_t N, const int32_t *X, const int64_t strideX1, const int64_t strideX2, int32_t *Y, const int64_t strideY1, const int64_t strideY2 ) {
+* static void fcn( const int64_t M, const int64_t N, const uint32_t *X, const int64_t strideX1, const int64_t strideX2, uint32_t *Y, const int64_t strideY1, const int64_t strideY2 ) {
 *     int64_t i;
 *     int64_t j;
 *     for ( i = 0; i < M; i++ ) {
@@ -70,20 +70,20 @@
 *     STDLIB_NAPI_ARGV_INT64( env, strideY2, argv, 7 );
 *
 *     // Convert the arrays to C types:
-*     STDLIB_NAPI_ARGV_STRIDED_INT32ARRAY2D( env, X, M, N, strideX1, strideX2, argv, 2 );
-*     STDLIB_NAPI_ARGV_STRIDED_INT32ARRAY2D( env, Y, M, N, strideY1, strideY2, argv, 5 );
+*     STDLIB_NAPI_ARGV_STRIDED_UINT32ARRAY2D( env, X, M, N, strideX1, strideX2, argv, 2 );
+*     STDLIB_NAPI_ARGV_STRIDED_UINT32ARRAY2D( env, Y, M, N, strideY1, strideY2, argv, 5 );
 *
 *     // ...
 *
 *     fcn( M, N, X, strideX1, strideX2, Y, strideY1, strideY2 );
 * }
 */
-#define STDLIB_NAPI_ARGV_STRIDED_INT32ARRAY2D( env, X, M, N, strideX1, strideX2, argv, index ) \
-	napi_value __STDLIB_NAPI_ARGV_STRIDED_INT32ARRAY2D_ERR_ ## X;              \
-	int32_t *X;                                                                \
-	stdlib_napi_argv_strided_int32array2d( env, M, N, strideX1, strideX2, argv[ index ], &X, "invalid argument. " STDLIB_NAPI_ARGV_INDEX2ORDINAL( index ) " argument must be an Int32Array.", "invalid argument. " STDLIB_NAPI_ARGV_INDEX2ORDINAL( index ) " argument has insufficient elements based on the associated strides and the number of rows and columns.", &__STDLIB_NAPI_ARGV_STRIDED_INT32ARRAY2D_ERR_ ## X ); \
-	if ( __STDLIB_NAPI_ARGV_STRIDED_INT32ARRAY2D_ERR_ ## X != NULL ) {         \
-		STDLIB_ASSERT_NAPI_STATUS_OK_RET_NULL( env, napi_throw( env, __STDLIB_NAPI_ARGV_STRIDED_INT32ARRAY2D_ERR_ ## X ), "" ) \
+#define STDLIB_NAPI_ARGV_STRIDED_UINT32ARRAY2D( env, X, M, N, strideX1, strideX2, argv, index ) \
+	napi_value __STDLIB_NAPI_ARGV_STRIDED_UINT32ARRAY2D_ERR_ ## X;             \
+	uint32_t *X;                                                               \
+	stdlib_napi_argv_strided_uint32array2d( env, M, N, strideX1, strideX2, argv[ index ], &X, "invalid argument. " STDLIB_NAPI_ARGV_INDEX2ORDINAL( index ) " argument must be a Uint32Array.", "invalid argument. " STDLIB_NAPI_ARGV_INDEX2ORDINAL( index ) " argument has insufficient elements based on the associated strides and the number of rows and columns.", &__STDLIB_NAPI_ARGV_STRIDED_UINT32ARRAY2D_ERR_ ## X ); \
+	if ( __STDLIB_NAPI_ARGV_STRIDED_UINT32ARRAY2D_ERR_ ## X != NULL ) {        \
+		STDLIB_ASSERT_NAPI_STATUS_OK_RET_NULL( env, napi_throw( env, __STDLIB_NAPI_ARGV_STRIDED_UINT32ARRAY2D_ERR_ ## X ), "" ) \
 		return NULL;                                                           \
 	}
 
@@ -95,12 +95,12 @@ extern "C" {
 #endif
 
 /**
-* Converts a Node-API value representing a two-dimensional strided array to a signed 32-bit integer array.
+* Converts a Node-API value representing a two-dimensional strided array to an unsigned 32-bit integer array.
 */
-napi_status stdlib_napi_argv_strided_int32array2d( const napi_env env, const int64_t M, const int64_t N, const int64_t strideX1, const int64_t strideX2, const napi_value value, int32_t **data, const char *message1, const char *message2, napi_value *err );
+napi_status stdlib_napi_argv_strided_uint32array2d( const napi_env env, const int64_t M, const int64_t N, const int64_t strideX1, const int64_t strideX2, const napi_value value, uint32_t **data, const char *message1, const char *message2, napi_value *err );
 
 #ifdef __cplusplus
 }
 #endif
 
-#endif // !STDLIB_NAPI_ARGV_STRIDED_INT32ARRAY2D_H
+#endif // !STDLIB_NAPI_ARGV_STRIDED_UINT32ARRAY2D_H
