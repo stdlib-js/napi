@@ -121,6 +121,7 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <details>
 
+-   [`e74ff00`](https://github.com/stdlib-js/stdlib/commit/e74ff0063ef3875807d2bc722117cbf78340c096) - **docs:** fix grammar in comments _(by Athan Reines)_
 -   [`d882fa9`](https://github.com/stdlib-js/stdlib/commit/d882fa9e5819d45ccbbcb81cb49975ad074d0252) - **feat:** update namespace _(by Athan Reines)_
 -   [`ed93284`](https://github.com/stdlib-js/stdlib/commit/ed932844bcde2d4e8dfe49010e8ce96381c98fdf) - **feat:** add `napi/argv-strided-float32array2d` _(by Athan Reines)_
 -   [`cf28c1a`](https://github.com/stdlib-js/stdlib/commit/cf28c1acda43bf58cdb1f6d89be0404c85cb724d) - **feat:** update namespace _(by Athan Reines)_
