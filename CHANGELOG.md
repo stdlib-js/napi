@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`27fb5fe`](https://github.com/stdlib-js/stdlib/commit/27fb5fedd0f9ae9eab7848c929f9b8da3f9633e9) - update namespace
 -   [`cda6d9e`](https://github.com/stdlib-js/stdlib/commit/cda6d9e51f7722e07e2d71f069a2f89863073355) - update namespace
 -   [`eea48af`](https://github.com/stdlib-js/stdlib/commit/eea48af07765617aef79bf6ac76de2c4e22518f7) - update namespace
 -   [`2120d56`](https://github.com/stdlib-js/stdlib/commit/2120d56805c81f3c32fe2c386d600f9a079f4905) - update namespace
@@ -177,6 +178,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="napi-argv-strided-uint16array2d-unreleased">
+
+#### [@stdlib/napi/argv-strided-uint16array2d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-strided-uint16array2d)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`c13c8f4`](https://github.com/stdlib-js/stdlib/commit/c13c8f4eac37b4126b4fa2e768b1e36cb3d7fa6d) - add `napi/argv-strided-uint16array2d`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="napi-argv-strided-uint32array2d-unreleased">
 
 #### [@stdlib/napi/argv-strided-uint32array2d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-strided-uint32array2d)
@@ -243,6 +266,9 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <details>
 
+-   [`27fb5fe`](https://github.com/stdlib-js/stdlib/commit/27fb5fedd0f9ae9eab7848c929f9b8da3f9633e9) - **feat:** update namespace _(by Athan Reines)_
+-   [`7a0a6ec`](https://github.com/stdlib-js/stdlib/commit/7a0a6ecae4c853fd5abc21f3f46425c6511e1759) - **docs:** fix grammar _(by Athan Reines)_
+-   [`c13c8f4`](https://github.com/stdlib-js/stdlib/commit/c13c8f4eac37b4126b4fa2e768b1e36cb3d7fa6d) - **feat:** add `napi/argv-strided-uint16array2d` _(by Athan Reines)_
 -   [`cda6d9e`](https://github.com/stdlib-js/stdlib/commit/cda6d9e51f7722e07e2d71f069a2f89863073355) - **feat:** update namespace _(by Athan Reines)_
 -   [`ab22e71`](https://github.com/stdlib-js/stdlib/commit/ab22e71e05aceb5e97062ec6fad80ae27792f30a) - **fix:** address typo in error message _(by Athan Reines)_
 -   [`86d88c1`](https://github.com/stdlib-js/stdlib/commit/86d88c10ff7d0f7ce179a948a374fad63ab78658) - **feat:** add `napi/argv-strided-uint32array2d` _(by Athan Reines)_
