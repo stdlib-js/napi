@@ -4,9 +4,63 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-01)
+## Unreleased (2024-09-08)
 
-No changes reported for this release.
+<section class="packages">
+
+### Packages
+
+<section class="package" id="napi-export-unreleased">
+
+#### [@stdlib/napi/export](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/export)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`6d9052e`](https://github.com/stdlib-js/stdlib/commit/6d9052e1c0fbfb835a84ce3c2cf1ded578d282e4) - add macro to export a function with a method
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+</section>
+
+<!-- /.packages -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Athan Reines
+
+</section>
+
+<!-- /.contributors -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`6d9052e`](https://github.com/stdlib-js/stdlib/commit/6d9052e1c0fbfb835a84ce3c2cf1ded578d282e4) - **feat:** add macro to export a function with a method _(by Athan Reines)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
 
 </section>
 
