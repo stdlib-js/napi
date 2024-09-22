@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-15)
+## Unreleased (2024-09-22)
 
 <section class="packages">
 
@@ -331,9 +331,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Philipp Burckhardt
 
 </section>
 
@@ -345,6 +346,7 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <details>
 
+-   [`9e689ff`](https://github.com/stdlib-js/stdlib/commit/9e689ffcb7c6223afc521f1e574b42f10921cf5e) - **chore:** fix indentation in manifest.json files _(by Philipp Burckhardt)_
 -   [`8f745c7`](https://github.com/stdlib-js/stdlib/commit/8f745c734da22e26a4c5e6bbaf9ab20d991e5a63) - **test:** fix descriptions _(by Athan Reines)_
 -   [`9ccfd33`](https://github.com/stdlib-js/stdlib/commit/9ccfd33ce711a105b6f7a056c7e57ea1b83e33c9) - **fix:** ensure method is a Node-API value before setting property _(by Athan Reines)_
 -   [`3de7b35`](https://github.com/stdlib-js/stdlib/commit/3de7b35ccace9db83573ae5225c4e5f4b3aeda3d) - **feat:** update namespace _(by Athan Reines)_
