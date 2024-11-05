@@ -2,6 +2,16 @@
 
 > Package changelog.
 
+<section class="release" id="v0.3.3">
+
+## 0.3.3 (2024-11-05)
+
+No changes reported for this release.
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.3.2">
 
 ## 0.3.2 (2024-11-05)
@@ -10,7 +20,7 @@
 
 ### Packages
 
-<section class="package" id="napi-unreleased">
+<section class="package" id="napi-v0.3.2">
 
 #### [@stdlib/napi](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi)
 
@@ -41,7 +51,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="napi-argv-strided-complex128array2d-unreleased">
+<section class="package" id="napi-argv-strided-complex128array2d-v0.3.2">
 
 #### [@stdlib/napi/argv-strided-complex128array2d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-strided-complex128array2d)
 
@@ -63,7 +73,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="napi-argv-strided-complex64array2d-unreleased">
+<section class="package" id="napi-argv-strided-complex64array2d-v0.3.2">
 
 #### [@stdlib/napi/argv-strided-complex64array2d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-strided-complex64array2d)
 
@@ -85,7 +95,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="napi-argv-strided-float32array2d-unreleased">
+<section class="package" id="napi-argv-strided-float32array2d-v0.3.2">
 
 #### [@stdlib/napi/argv-strided-float32array2d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-strided-float32array2d)
 
@@ -107,7 +117,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="napi-argv-strided-float64array2d-unreleased">
+<section class="package" id="napi-argv-strided-float64array2d-v0.3.2">
 
 #### [@stdlib/napi/argv-strided-float64array2d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-strided-float64array2d)
 
@@ -129,7 +139,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="napi-argv-strided-int16array2d-unreleased">
+<section class="package" id="napi-argv-strided-int16array2d-v0.3.2">
 
 #### [@stdlib/napi/argv-strided-int16array2d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-strided-int16array2d)
 
@@ -161,7 +171,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="napi-argv-strided-int32array2d-unreleased">
+<section class="package" id="napi-argv-strided-int32array2d-v0.3.2">
 
 #### [@stdlib/napi/argv-strided-int32array2d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-strided-int32array2d)
 
@@ -193,7 +203,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="napi-argv-strided-int8array2d-unreleased">
+<section class="package" id="napi-argv-strided-int8array2d-v0.3.2">
 
 #### [@stdlib/napi/argv-strided-int8array2d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-strided-int8array2d)
 
@@ -225,7 +235,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="napi-argv-strided-uint16array2d-unreleased">
+<section class="package" id="napi-argv-strided-uint16array2d-v0.3.2">
 
 #### [@stdlib/napi/argv-strided-uint16array2d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-strided-uint16array2d)
 
@@ -247,7 +257,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="napi-argv-strided-uint32array2d-unreleased">
+<section class="package" id="napi-argv-strided-uint32array2d-v0.3.2">
 
 #### [@stdlib/napi/argv-strided-uint32array2d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-strided-uint32array2d)
 
@@ -269,7 +279,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="napi-argv-strided-uint8array2d-unreleased">
+<section class="package" id="napi-argv-strided-uint8array2d-v0.3.2">
 
 #### [@stdlib/napi/argv-strided-uint8array2d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-strided-uint8array2d)
 
@@ -291,7 +301,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="napi-export-unreleased">
+<section class="package" id="napi-export-v0.3.2">
 
 #### [@stdlib/napi/export](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/export)
 
