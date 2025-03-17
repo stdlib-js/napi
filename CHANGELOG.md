@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-24)
+## Unreleased (2025-03-17)
 
 <section class="packages">
 
@@ -54,18 +54,55 @@
 
 <!-- /.package -->
 
+<section class="package" id="napi-argv-complex128-unreleased">
+
+#### [@stdlib/napi/argv-complex128](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-complex128)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#6054](https://github.com/stdlib-js/stdlib/issues/6054)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#6054](https://github.com/stdlib-js/stdlib/issues/6054)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="contributors">
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Dhruv Arvind Singh
+-   Gautam sharma
 -   Philipp Burckhardt
 
 </section>
@@ -78,6 +115,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`6281551`](https://github.com/stdlib-js/stdlib/commit/62815510cb88cce68c65fd9e210d1024e335b780) - **chore:** resolve javascript lint error [(#6064)](https://github.com/stdlib-js/stdlib/pull/6064) _(by Gautam sharma)_
 -   [`29fece2`](https://github.com/stdlib-js/stdlib/commit/29fece25b3bdb7af118cefc635e65bf4312ffda7) - **feat:** adds `napi/argv-bool` [(#4635)](https://github.com/stdlib-js/stdlib/pull/4635) _(by Dhruv Arvind Singh, Athan Reines)_
 -   [`ff25e13`](https://github.com/stdlib-js/stdlib/commit/ff25e1324e1507cc076078e82badce7fdf7915f6) - **docs:** remove excess whitespace _(by Philipp Burckhardt)_
 
