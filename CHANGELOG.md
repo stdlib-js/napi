@@ -4,83 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-17)
-
-<section class="packages">
-
-### Packages
-
-<section class="package" id="napi-unreleased">
-
-#### [@stdlib/napi](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi)
-
-<details>
+## Unreleased (2025-05-19)
 
 <section class="features">
 
-##### Features
+### Features
 
 -   [`29fece2`](https://github.com/stdlib-js/stdlib/commit/29fece25b3bdb7af118cefc635e65bf4312ffda7) - adds `napi/argv-bool` [(#4635)](https://github.com/stdlib-js/stdlib/pull/4635)
 
 </section>
 
 <!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="napi-argv-bool-unreleased">
-
-#### [@stdlib/napi/argv-bool](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-bool)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`29fece2`](https://github.com/stdlib-js/stdlib/commit/29fece25b3bdb7af118cefc635e65bf4312ffda7) - adds `napi/argv-bool` [(#4635)](https://github.com/stdlib-js/stdlib/pull/4635)
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="napi-argv-complex128-unreleased">
-
-#### [@stdlib/napi/argv-complex128](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-complex128)
-
-<details>
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#6054](https://github.com/stdlib-js/stdlib/issues/6054)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
 
 <section class="issues">
 
@@ -93,21 +27,6 @@ This release closes the following issue:
 </section>
 
 <!-- /.issues -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 4 people contributed to this release. Thank you to the following contributors:
-
--   Athan Reines
--   Dhruv Arvind Singh
--   Gautam sharma
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -124,6 +43,21 @@ A total of 4 people contributed to this release. Thank you to the following cont
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 4 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Dhruv Arvind Singh
+-   Gautam sharma
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
@@ -143,301 +77,30 @@ No changes reported for this release.
 
 ## 0.3.2 (2024-11-05)
 
-<section class="packages">
-
-### Packages
-
-<section class="package" id="napi-v0.3.2">
-
-#### [@stdlib/napi](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi)
-
-<details>
-
 <section class="features">
 
-##### Features
+### Features
 
 -   [`3de7b35`](https://github.com/stdlib-js/stdlib/commit/3de7b35ccace9db83573ae5225c4e5f4b3aeda3d) - update namespace
--   [`dac29fd`](https://github.com/stdlib-js/stdlib/commit/dac29fd57d7328ed0cb7866307c07b3b8df92043) - update namespace
--   [`c3b2e41`](https://github.com/stdlib-js/stdlib/commit/c3b2e41f64cbb3dff1333ed18a03647674db528c) - update namespace
--   [`27fb5fe`](https://github.com/stdlib-js/stdlib/commit/27fb5fedd0f9ae9eab7848c929f9b8da3f9633e9) - update namespace
--   [`cda6d9e`](https://github.com/stdlib-js/stdlib/commit/cda6d9e51f7722e07e2d71f069a2f89863073355) - update namespace
--   [`eea48af`](https://github.com/stdlib-js/stdlib/commit/eea48af07765617aef79bf6ac76de2c4e22518f7) - update namespace
--   [`2120d56`](https://github.com/stdlib-js/stdlib/commit/2120d56805c81f3c32fe2c386d600f9a079f4905) - update namespace
--   [`82dd5fa`](https://github.com/stdlib-js/stdlib/commit/82dd5fa26d1e6674340ce729d085b942a89e325a) - update namespace
--   [`d882fa9`](https://github.com/stdlib-js/stdlib/commit/d882fa9e5819d45ccbbcb81cb49975ad074d0252) - update namespace
--   [`cf28c1a`](https://github.com/stdlib-js/stdlib/commit/cf28c1acda43bf58cdb1f6d89be0404c85cb724d) - update namespace
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="napi-argv-strided-complex128array2d-v0.3.2">
-
-#### [@stdlib/napi/argv-strided-complex128array2d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-strided-complex128array2d)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`5b9a31e`](https://github.com/stdlib-js/stdlib/commit/5b9a31e14e9bfddc64e6f7dc2b1edecd3871e675) - add `napi/argv-strided-complex128array`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="napi-argv-strided-complex64array2d-v0.3.2">
-
-#### [@stdlib/napi/argv-strided-complex64array2d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-strided-complex64array2d)
-
-<details>
-
-<section class="features">
-
-##### Features
-
 -   [`d8a3f4f`](https://github.com/stdlib-js/stdlib/commit/d8a3f4fafb8fadf6eb5af9c9ee79c2bfd7cb5692) - add `napi/argv-strided-complex64array2d`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="napi-argv-strided-float32array2d-v0.3.2">
-
-#### [@stdlib/napi/argv-strided-float32array2d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-strided-float32array2d)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`ed93284`](https://github.com/stdlib-js/stdlib/commit/ed932844bcde2d4e8dfe49010e8ce96381c98fdf) - add `napi/argv-strided-float32array2d`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="napi-argv-strided-float64array2d-v0.3.2">
-
-#### [@stdlib/napi/argv-strided-float64array2d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-strided-float64array2d)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`785a438`](https://github.com/stdlib-js/stdlib/commit/785a43847b116927f8dc0b1e7f5e5231dbaf7939) - add `napi/argv-strided-float64array2d`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="napi-argv-strided-int16array2d-v0.3.2">
-
-#### [@stdlib/napi/argv-strided-int16array2d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-strided-int16array2d)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`c35a072`](https://github.com/stdlib-js/stdlib/commit/c35a072d0d834cd9c79949e9d7a0922643a0747b) - add `napi/argv-strided-int16array2d`
-
-</section>
-
-<!-- /.features -->
-
-<section class="bug-fixes">
-
-##### Bug Fixes
-
--   [`ab22e71`](https://github.com/stdlib-js/stdlib/commit/ab22e71e05aceb5e97062ec6fad80ae27792f30a) - address typo in error message
-
-</section>
-
-<!-- /.bug-fixes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="napi-argv-strided-int32array2d-v0.3.2">
-
-#### [@stdlib/napi/argv-strided-int32array2d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-strided-int32array2d)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`a8f51b6`](https://github.com/stdlib-js/stdlib/commit/a8f51b69d46c9fd288ecb828a75582cfd6f36aa3) - add `napi/argv-strided-int32array2d`
-
-</section>
-
-<!-- /.features -->
-
-<section class="bug-fixes">
-
-##### Bug Fixes
-
--   [`ab22e71`](https://github.com/stdlib-js/stdlib/commit/ab22e71e05aceb5e97062ec6fad80ae27792f30a) - address typo in error message
-
-</section>
-
-<!-- /.bug-fixes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="napi-argv-strided-int8array2d-v0.3.2">
-
-#### [@stdlib/napi/argv-strided-int8array2d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-strided-int8array2d)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`52680bd`](https://github.com/stdlib-js/stdlib/commit/52680bdc4e2249b45a33b8abfc126fed5c924d2b) - add `napi/argv-strided-int8array2d`
-
-</section>
-
-<!-- /.features -->
-
-<section class="bug-fixes">
-
-##### Bug Fixes
-
--   [`ab22e71`](https://github.com/stdlib-js/stdlib/commit/ab22e71e05aceb5e97062ec6fad80ae27792f30a) - address typo in error message
-
-</section>
-
-<!-- /.bug-fixes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="napi-argv-strided-uint16array2d-v0.3.2">
-
-#### [@stdlib/napi/argv-strided-uint16array2d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-strided-uint16array2d)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`c13c8f4`](https://github.com/stdlib-js/stdlib/commit/c13c8f4eac37b4126b4fa2e768b1e36cb3d7fa6d) - add `napi/argv-strided-uint16array2d`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="napi-argv-strided-uint32array2d-v0.3.2">
-
-#### [@stdlib/napi/argv-strided-uint32array2d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-strided-uint32array2d)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`86d88c1`](https://github.com/stdlib-js/stdlib/commit/86d88c10ff7d0f7ce179a948a374fad63ab78658) - add `napi/argv-strided-uint32array2d`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="napi-argv-strided-uint8array2d-v0.3.2">
-
-#### [@stdlib/napi/argv-strided-uint8array2d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-strided-uint8array2d)
-
-<details>
-
-<section class="features">
-
-##### Features
-
+-   [`dac29fd`](https://github.com/stdlib-js/stdlib/commit/dac29fd57d7328ed0cb7866307c07b3b8df92043) - update namespace
+-   [`5b9a31e`](https://github.com/stdlib-js/stdlib/commit/5b9a31e14e9bfddc64e6f7dc2b1edecd3871e675) - add `napi/argv-strided-complex128array`
+-   [`c3b2e41`](https://github.com/stdlib-js/stdlib/commit/c3b2e41f64cbb3dff1333ed18a03647674db528c) - update namespace
 -   [`8d35b58`](https://github.com/stdlib-js/stdlib/commit/8d35b582c64952f905afdd2ee26b2e6831f3d01e) - add `napi/argv-strided-uint8array2d`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="napi-export-v0.3.2">
-
-#### [@stdlib/napi/export](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/export)
-
-<details>
-
-<section class="features">
-
-##### Features
-
+-   [`27fb5fe`](https://github.com/stdlib-js/stdlib/commit/27fb5fedd0f9ae9eab7848c929f9b8da3f9633e9) - update namespace
+-   [`c13c8f4`](https://github.com/stdlib-js/stdlib/commit/c13c8f4eac37b4126b4fa2e768b1e36cb3d7fa6d) - add `napi/argv-strided-uint16array2d`
+-   [`cda6d9e`](https://github.com/stdlib-js/stdlib/commit/cda6d9e51f7722e07e2d71f069a2f89863073355) - update namespace
+-   [`86d88c1`](https://github.com/stdlib-js/stdlib/commit/86d88c10ff7d0f7ce179a948a374fad63ab78658) - add `napi/argv-strided-uint32array2d`
+-   [`eea48af`](https://github.com/stdlib-js/stdlib/commit/eea48af07765617aef79bf6ac76de2c4e22518f7) - update namespace
+-   [`52680bd`](https://github.com/stdlib-js/stdlib/commit/52680bdc4e2249b45a33b8abfc126fed5c924d2b) - add `napi/argv-strided-int8array2d`
+-   [`2120d56`](https://github.com/stdlib-js/stdlib/commit/2120d56805c81f3c32fe2c386d600f9a079f4905) - update namespace
+-   [`c35a072`](https://github.com/stdlib-js/stdlib/commit/c35a072d0d834cd9c79949e9d7a0922643a0747b) - add `napi/argv-strided-int16array2d`
+-   [`82dd5fa`](https://github.com/stdlib-js/stdlib/commit/82dd5fa26d1e6674340ce729d085b942a89e325a) - update namespace
+-   [`a8f51b6`](https://github.com/stdlib-js/stdlib/commit/a8f51b69d46c9fd288ecb828a75582cfd6f36aa3) - add `napi/argv-strided-int32array2d`
+-   [`d882fa9`](https://github.com/stdlib-js/stdlib/commit/d882fa9e5819d45ccbbcb81cb49975ad074d0252) - update namespace
+-   [`ed93284`](https://github.com/stdlib-js/stdlib/commit/ed932844bcde2d4e8dfe49010e8ce96381c98fdf) - add `napi/argv-strided-float32array2d`
+-   [`cf28c1a`](https://github.com/stdlib-js/stdlib/commit/cf28c1acda43bf58cdb1f6d89be0404c85cb724d) - update namespace
+-   [`785a438`](https://github.com/stdlib-js/stdlib/commit/785a43847b116927f8dc0b1e7f5e5231dbaf7939) - add `napi/argv-strided-float64array2d`
 -   [`6d9052e`](https://github.com/stdlib-js/stdlib/commit/6d9052e1c0fbfb835a84ce3c2cf1ded578d282e4) - add macro to export a function with a method
 
 </section>
@@ -446,36 +109,14 @@ No changes reported for this release.
 
 <section class="bug-fixes">
 
-##### Bug Fixes
+### Bug Fixes
 
 -   [`9ccfd33`](https://github.com/stdlib-js/stdlib/commit/9ccfd33ce711a105b6f7a056c7e57ea1b83e33c9) - ensure method is a Node-API value before setting property
+-   [`ab22e71`](https://github.com/stdlib-js/stdlib/commit/ab22e71e05aceb5e97062ec6fad80ae27792f30a) - address typo in error message
 
 </section>
 
 <!-- /.bug-fixes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 2 people contributed to this release. Thank you to the following contributors:
-
--   Athan Reines
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -520,6 +161,19 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <!-- /.commits -->
 
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
 </section>
 
 <!-- /.release -->
@@ -538,46 +192,20 @@ No changes reported for this release.
 
 ## 0.3.0 (2024-08-17)
 
-<section class="packages">
-
-### Packages
-
-<section class="package" id="napi-v0.3.0">
-
-#### [@stdlib/napi](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi)
-
-<details>
-
 <section class="features">
 
-##### Features
+### Features
 
 -   [`598c5d3`](https://github.com/stdlib-js/stdlib/commit/598c5d3c71aca68ca9111b66d80785618249be1a) - add macro for creating a complex-like Node-API value
+-   [`9ab47b5`](https://github.com/stdlib-js/stdlib/commit/9ab47b51dc527731c30648b2d45d14b8cb1ca894) - add `napi/create-complex-like`
 -   [`e914e90`](https://github.com/stdlib-js/stdlib/commit/e914e900a9fc26390c768a410097dccaab86fcb0) - update namespace to include creation macros
+-   [`30a6340`](https://github.com/stdlib-js/stdlib/commit/30a63406d21437900f5e8e3a59c92bf3b1e6bd91) - add macro for converting an unsigned 32-bit integer to a Node-API value
+-   [`01634a4`](https://github.com/stdlib-js/stdlib/commit/01634a4534fff1893cb781c59c9e3c98ee7e83e9) - add macro for converting a 32-bit integer to a Node-API value
 -   [`2685ddd`](https://github.com/stdlib-js/stdlib/commit/2685ddddf239f106a1c2fd5b63d7f9820ed1ff83) - add macro for creating a Node-API double
+-   [`3aa17cd`](https://github.com/stdlib-js/stdlib/commit/3aa17cd6be87b47d5d01c1556e519413a3c4bdbe) - add `napi/create-double`
 -   [`1fb4994`](https://github.com/stdlib-js/stdlib/commit/1fb4994e369f396c81b96787e89cb379c015ab29) - add utility to resolve a single-precision complex floating-point number
+-   [`0df1de1`](https://github.com/stdlib-js/stdlib/commit/0df1de11d761ee1a7ea02d15e537cd5eab1b4306) - add `napi/argv-complex64`
 -   [`abf06fa`](https://github.com/stdlib-js/stdlib/commit/abf06fa8228c322585569ec4d06e8d81324d4d6b) - add utility to resolve a double-precision complex floating-point number
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="napi-argv-complex128-v0.3.0">
-
-#### [@stdlib/napi/argv-complex128](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-complex128)
-
-<details>
-
-<section class="features">
-
-##### Features
-
 -   [`ced016b`](https://github.com/stdlib-js/stdlib/commit/ced016b5f702af7a3ce6271559ed5abb93edf353) - add `napi/argv-complex128` [(#1745)](https://github.com/stdlib-js/stdlib/pull/1745)
 
 </section>
@@ -586,199 +214,14 @@ No changes reported for this release.
 
 <section class="bug-fixes">
 
-##### Bug Fixes
+### Bug Fixes
 
 -   [`cf3f92e`](https://github.com/stdlib-js/stdlib/commit/cf3f92eddd20ec1a4106c8a34f7d7705a9a99dbc) - update include paths
-
-</section>
-
-<!-- /.bug-fixes -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#816](https://github.com/stdlib-js/stdlib/issues/816)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="napi-argv-complex64-v0.3.0">
-
-#### [@stdlib/napi/argv-complex64](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-complex64)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`0df1de1`](https://github.com/stdlib-js/stdlib/commit/0df1de11d761ee1a7ea02d15e537cd5eab1b4306) - add `napi/argv-complex64`
-
-</section>
-
-<!-- /.features -->
-
-<section class="bug-fixes">
-
-##### Bug Fixes
-
--   [`cf3f92e`](https://github.com/stdlib-js/stdlib/commit/cf3f92eddd20ec1a4106c8a34f7d7705a9a99dbc) - update include paths
-
-</section>
-
-<!-- /.bug-fixes -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#817](https://github.com/stdlib-js/stdlib/issues/817)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="napi-argv-int64-v0.3.0">
-
-#### [@stdlib/napi/argv-int64](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-int64)
-
-<details>
-
-<section class="bug-fixes">
-
-##### Bug Fixes
-
 -   [`ec81ded`](https://github.com/stdlib-js/stdlib/commit/ec81ded139aab9b389d998c96f139287e51fbd1b) - update include guard
 
 </section>
 
 <!-- /.bug-fixes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="napi-create-complex-like-v0.3.0">
-
-#### [@stdlib/napi/create-complex-like](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/create-complex-like)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`9ab47b5`](https://github.com/stdlib-js/stdlib/commit/9ab47b51dc527731c30648b2d45d14b8cb1ca894) - add `napi/create-complex-like`
-
-</section>
-
-<!-- /.features -->
-
-<section class="bug-fixes">
-
-##### Bug Fixes
-
--   [`cf3f92e`](https://github.com/stdlib-js/stdlib/commit/cf3f92eddd20ec1a4106c8a34f7d7705a9a99dbc) - update include paths
-
-</section>
-
-<!-- /.bug-fixes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="napi-create-double-v0.3.0">
-
-#### [@stdlib/napi/create-double](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/create-double)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`3aa17cd`](https://github.com/stdlib-js/stdlib/commit/3aa17cd6be87b47d5d01c1556e519413a3c4bdbe) - add `napi/create-double`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="napi-create-int32-v0.3.0">
-
-#### [@stdlib/napi/create-int32](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/create-int32)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`01634a4`](https://github.com/stdlib-js/stdlib/commit/01634a4534fff1893cb781c59c9e3c98ee7e83e9) - add macro for converting a 32-bit integer to a Node-API value
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="napi-create-uint32-v0.3.0">
-
-#### [@stdlib/napi/create-uint32](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/create-uint32)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`30a6340`](https://github.com/stdlib-js/stdlib/commit/30a63406d21437900f5e8e3a59c92bf3b1e6bd91) - add macro for converting an unsigned 32-bit integer to a Node-API value
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
 
 <section class="issues">
 
@@ -791,21 +234,6 @@ A total of 2 issues were closed in this release:
 </section>
 
 <!-- /.issues -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 4 people contributed to this release. Thank you to the following contributors:
-
--   Athan Reines
--   Philipp Burckhardt
--   Utkarsh
--   Utkarsh Gupta
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -842,6 +270,21 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 <!-- /.commits -->
 
+<section class="contributors">
+
+### Contributors
+
+A total of 4 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Philipp Burckhardt
+-   Utkarsh
+-   Utkarsh Gupta
+
+</section>
+
+<!-- /.contributors -->
+
 </section>
 
 <!-- /.release -->
@@ -860,26 +303,6 @@ No changes reported for this release.
 
 ## 0.2.0 (2024-02-05)
 
-<section class="packages">
-
-### Packages
-
-</section>
-
-<!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
-
 <section class="commits">
 
 ### Commits
@@ -893,6 +316,18 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
@@ -922,965 +357,15 @@ No changes reported for this release.
 
 ## 0.0.1 (2023-09-22)
 
-<section class="packages">
-
-### Packages
-
-<section class="package" id="napi-v0.0.1">
-
-#### [@stdlib/napi](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi)
-
-<details>
-
 <section class="features">
 
-##### Features
+### Features
 
 -   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6) - update minimum TypeScript version
 
 </section>
 
 <!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="napi-argv-v0.0.1">
-
-#### [@stdlib/napi/argv](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="napi-argv-complex128array-v0.0.1">
-
-#### [@stdlib/napi/argv-complex128array](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-complex128array)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="napi-argv-complex64array-v0.0.1">
-
-#### [@stdlib/napi/argv-complex64array](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-complex64array)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="napi-argv-double-v0.0.1">
-
-#### [@stdlib/napi/argv-double](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-double)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="napi-argv-float-v0.0.1">
-
-#### [@stdlib/napi/argv-float](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-float)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="napi-argv-float32array-v0.0.1">
-
-#### [@stdlib/napi/argv-float32array](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-float32array)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="napi-argv-float64array-v0.0.1">
-
-#### [@stdlib/napi/argv-float64array](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-float64array)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="napi-argv-int16array-v0.0.1">
-
-#### [@stdlib/napi/argv-int16array](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-int16array)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="napi-argv-int32-v0.0.1">
-
-#### [@stdlib/napi/argv-int32](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-int32)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="napi-argv-int32array-v0.0.1">
-
-#### [@stdlib/napi/argv-int32array](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-int32array)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="napi-argv-int64-v0.0.1">
-
-#### [@stdlib/napi/argv-int64](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-int64)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="napi-argv-int8array-v0.0.1">
-
-#### [@stdlib/napi/argv-int8array](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-int8array)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="napi-argv-strided-complex128array-v0.0.1">
-
-#### [@stdlib/napi/argv-strided-complex128array](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-strided-complex128array)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="napi-argv-strided-complex64array-v0.0.1">
-
-#### [@stdlib/napi/argv-strided-complex64array](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-strided-complex64array)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="napi-argv-strided-float32array-v0.0.1">
-
-#### [@stdlib/napi/argv-strided-float32array](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-strided-float32array)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="napi-argv-strided-float64array-v0.0.1">
-
-#### [@stdlib/napi/argv-strided-float64array](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-strided-float64array)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="napi-argv-strided-int16array-v0.0.1">
-
-#### [@stdlib/napi/argv-strided-int16array](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-strided-int16array)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="napi-argv-strided-int32array-v0.0.1">
-
-#### [@stdlib/napi/argv-strided-int32array](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-strided-int32array)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="napi-argv-strided-int8array-v0.0.1">
-
-#### [@stdlib/napi/argv-strided-int8array](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-strided-int8array)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="napi-argv-strided-uint16array-v0.0.1">
-
-#### [@stdlib/napi/argv-strided-uint16array](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-strided-uint16array)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="napi-argv-strided-uint32array-v0.0.1">
-
-#### [@stdlib/napi/argv-strided-uint32array](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-strided-uint32array)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="napi-argv-strided-uint8array-v0.0.1">
-
-#### [@stdlib/napi/argv-strided-uint8array](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-strided-uint8array)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="napi-argv-uint16array-v0.0.1">
-
-#### [@stdlib/napi/argv-uint16array](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-uint16array)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="napi-argv-uint32-v0.0.1">
-
-#### [@stdlib/napi/argv-uint32](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-uint32)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="napi-argv-uint32array-v0.0.1">
-
-#### [@stdlib/napi/argv-uint32array](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-uint32array)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="napi-argv-uint8array-v0.0.1">
-
-#### [@stdlib/napi/argv-uint8array](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/argv-uint8array)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="napi-export-v0.0.1">
-
-#### [@stdlib/napi/export](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/napi/export)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
 
 <section class="breaking-changes">
 
@@ -1893,18 +378,6 @@ No changes reported for this release.
 </section>
 
 <!-- /.breaking-changes -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -1919,6 +392,18 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
