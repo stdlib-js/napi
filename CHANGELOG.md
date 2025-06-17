@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-02)
+## Unreleased (2025-06-17)
 
 <section class="features">
 
 ### Features
 
+-   [`c38f78b`](https://github.com/stdlib-js/stdlib/commit/c38f78b13826dc56d9316b3afa3915e83bddf90c) - add utility for handling a Node-API DataView argument
+-   [`71caed8`](https://github.com/stdlib-js/stdlib/commit/71caed8ffc755e2cbfa95c997a0336e5997da7e4) - add `napi/argv-dataview`
 -   [`29fece2`](https://github.com/stdlib-js/stdlib/commit/29fece25b3bdb7af118cefc635e65bf4312ffda7) - adds `napi/argv-bool` [(#4635)](https://github.com/stdlib-js/stdlib/pull/4635)
 
 </section>
@@ -34,6 +36,8 @@ This release closes the following issue:
 
 <details>
 
+-   [`c38f78b`](https://github.com/stdlib-js/stdlib/commit/c38f78b13826dc56d9316b3afa3915e83bddf90c) - **feat:** add utility for handling a Node-API DataView argument _(by Athan Reines)_
+-   [`71caed8`](https://github.com/stdlib-js/stdlib/commit/71caed8ffc755e2cbfa95c997a0336e5997da7e4) - **feat:** add `napi/argv-dataview` _(by Athan Reines)_
 -   [`6281551`](https://github.com/stdlib-js/stdlib/commit/62815510cb88cce68c65fd9e210d1024e335b780) - **chore:** resolve javascript lint error [(#6064)](https://github.com/stdlib-js/stdlib/pull/6064) _(by Gautam sharma)_
 -   [`29fece2`](https://github.com/stdlib-js/stdlib/commit/29fece25b3bdb7af118cefc635e65bf4312ffda7) - **feat:** adds `napi/argv-bool` [(#4635)](https://github.com/stdlib-js/stdlib/pull/4635) _(by Dhruv Arvind Singh, Athan Reines)_
 -   [`ff25e13`](https://github.com/stdlib-js/stdlib/commit/ff25e1324e1507cc076078e82badce7fdf7915f6) - **docs:** remove excess whitespace _(by Philipp Burckhardt)_
