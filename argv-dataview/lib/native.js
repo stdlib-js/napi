@@ -29,8 +29,8 @@ var addon = require( './../src/addon.node' );
 * Wrapper function exposing the C API to JavaScript.
 *
 * @private
-* @param {DataView} v - input array
-* @returns {DataView} input array
+* @param {DataView} v - input DataView
+* @returns {DataView} input DataView
 *
 * @example
 * var Uint8Array = require( '@stdlib/array/uint8' );

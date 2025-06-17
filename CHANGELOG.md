@@ -36,6 +36,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`49f64f7`](https://github.com/stdlib-js/stdlib/commit/49f64f70bee8b4638a0a2a6fdab0af04e8a42597) - **docs:** fix descriptions _(by Athan Reines)_
 -   [`c38f78b`](https://github.com/stdlib-js/stdlib/commit/c38f78b13826dc56d9316b3afa3915e83bddf90c) - **feat:** add utility for handling a Node-API DataView argument _(by Athan Reines)_
 -   [`71caed8`](https://github.com/stdlib-js/stdlib/commit/71caed8ffc755e2cbfa95c997a0336e5997da7e4) - **feat:** add `napi/argv-dataview` _(by Athan Reines)_
 -   [`6281551`](https://github.com/stdlib-js/stdlib/commit/62815510cb88cce68c65fd9e210d1024e335b780) - **chore:** resolve javascript lint error [(#6064)](https://github.com/stdlib-js/stdlib/pull/6064) _(by Gautam sharma)_
