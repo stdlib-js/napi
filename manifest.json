@@ -38,6 +38,7 @@
         "@stdlib/napi/argv-complex128",
         "@stdlib/napi/argv-complex128array",
         "@stdlib/napi/argv-dataview",
+        "@stdlib/napi/argv-dataview-cast",
         "@stdlib/napi/argv-double",
         "@stdlib/napi/argv-float",
         "@stdlib/napi/argv-float32array",

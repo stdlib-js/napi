@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`b6f7ee1`](https://github.com/stdlib-js/stdlib/commit/b6f7ee1de90f9e477e22d32f197cfe594e6b1d27) - add utility to cast a DataView to a pointer having a specified data type
+-   [`374c9b0`](https://github.com/stdlib-js/stdlib/commit/374c9b0464d61efde4ede0545c953b55ec70e88c) - add `napi/argv-dataview-cast`
 -   [`c38f78b`](https://github.com/stdlib-js/stdlib/commit/c38f78b13826dc56d9316b3afa3915e83bddf90c) - add utility for handling a Node-API DataView argument
 -   [`71caed8`](https://github.com/stdlib-js/stdlib/commit/71caed8ffc755e2cbfa95c997a0336e5997da7e4) - add `napi/argv-dataview`
 -   [`29fece2`](https://github.com/stdlib-js/stdlib/commit/29fece25b3bdb7af118cefc635e65bf4312ffda7) - adds `napi/argv-bool` [(#4635)](https://github.com/stdlib-js/stdlib/pull/4635)
@@ -36,6 +38,8 @@ This release closes the following issue:
 
 <details>
 
+-   [`b6f7ee1`](https://github.com/stdlib-js/stdlib/commit/b6f7ee1de90f9e477e22d32f197cfe594e6b1d27) - **feat:** add utility to cast a DataView to a pointer having a specified data type _(by Athan Reines)_
+-   [`374c9b0`](https://github.com/stdlib-js/stdlib/commit/374c9b0464d61efde4ede0545c953b55ec70e88c) - **feat:** add `napi/argv-dataview-cast` _(by Athan Reines)_
 -   [`49f64f7`](https://github.com/stdlib-js/stdlib/commit/49f64f70bee8b4638a0a2a6fdab0af04e8a42597) - **docs:** fix descriptions _(by Athan Reines)_
 -   [`c38f78b`](https://github.com/stdlib-js/stdlib/commit/c38f78b13826dc56d9316b3afa3915e83bddf90c) - **feat:** add utility for handling a Node-API DataView argument _(by Athan Reines)_
 -   [`71caed8`](https://github.com/stdlib-js/stdlib/commit/71caed8ffc755e2cbfa95c997a0336e5997da7e4) - **feat:** add `napi/argv-dataview` _(by Athan Reines)_
