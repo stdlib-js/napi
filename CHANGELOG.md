@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-17)
+## Unreleased (2025-06-29)
 
 <section class="features">
 
@@ -38,6 +38,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`839438c`](https://github.com/stdlib-js/stdlib/commit/839438c169dee0c604d78798e1b66369ed3abd79) - **docs:** fix include header path in examples _(by Philipp Burckhardt)_
 -   [`b6f7ee1`](https://github.com/stdlib-js/stdlib/commit/b6f7ee1de90f9e477e22d32f197cfe594e6b1d27) - **feat:** add utility to cast a DataView to a pointer having a specified data type _(by Athan Reines)_
 -   [`374c9b0`](https://github.com/stdlib-js/stdlib/commit/374c9b0464d61efde4ede0545c953b55ec70e88c) - **feat:** add `napi/argv-dataview-cast` _(by Athan Reines)_
 -   [`49f64f7`](https://github.com/stdlib-js/stdlib/commit/49f64f70bee8b4638a0a2a6fdab0af04e8a42597) - **docs:** fix descriptions _(by Athan Reines)_
