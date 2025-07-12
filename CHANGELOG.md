@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-29)
+## Unreleased (2025-07-12)
 
 <section class="features">
 
@@ -19,6 +19,16 @@
 </section>
 
 <!-- /.features -->
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`d06d2ed`](https://github.com/stdlib-js/stdlib/commit/d06d2edbc526a0b86b02a9c06567e6d938238783) - use correct name in package.json
+
+</section>
+
+<!-- /.bug-fixes -->
 
 <section class="issues">
 
@@ -38,6 +48,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`d06d2ed`](https://github.com/stdlib-js/stdlib/commit/d06d2edbc526a0b86b02a9c06567e6d938238783) - **fix:** use correct name in package.json _(by Philipp Burckhardt)_
 -   [`839438c`](https://github.com/stdlib-js/stdlib/commit/839438c169dee0c604d78798e1b66369ed3abd79) - **docs:** fix include header path in examples _(by Philipp Burckhardt)_
 -   [`b6f7ee1`](https://github.com/stdlib-js/stdlib/commit/b6f7ee1de90f9e477e22d32f197cfe594e6b1d27) - **feat:** add utility to cast a DataView to a pointer having a specified data type _(by Athan Reines)_
 -   [`374c9b0`](https://github.com/stdlib-js/stdlib/commit/374c9b0464d61efde4ede0545c953b55ec70e88c) - **feat:** add `napi/argv-dataview-cast` _(by Athan Reines)_
