@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-12)
+## Unreleased (2025-07-13)
 
 <section class="features">
 
@@ -48,6 +48,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`b3954ec`](https://github.com/stdlib-js/stdlib/commit/b3954ec4fbcc4d0ad5a3071fb3884555efbeaf4e) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`d06d2ed`](https://github.com/stdlib-js/stdlib/commit/d06d2edbc526a0b86b02a9c06567e6d938238783) - **fix:** use correct name in package.json _(by Philipp Burckhardt)_
 -   [`839438c`](https://github.com/stdlib-js/stdlib/commit/839438c169dee0c604d78798e1b66369ed3abd79) - **docs:** fix include header path in examples _(by Philipp Burckhardt)_
 -   [`b6f7ee1`](https://github.com/stdlib-js/stdlib/commit/b6f7ee1de90f9e477e22d32f197cfe594e6b1d27) - **feat:** add utility to cast a DataView to a pointer having a specified data type _(by Athan Reines)_
