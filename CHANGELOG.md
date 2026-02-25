@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-02-02)
+## Unreleased (2026-02-25)
 
 <section class="features">
 
@@ -48,6 +48,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`12181cb`](https://github.com/stdlib-js/stdlib/commit/12181cb83b3a9a3092d9c41170c31d83db2c0636) - **chore:** use relative path and update spacing _(by Philipp Burckhardt)_
 -   [`b3954ec`](https://github.com/stdlib-js/stdlib/commit/b3954ec4fbcc4d0ad5a3071fb3884555efbeaf4e) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`d06d2ed`](https://github.com/stdlib-js/stdlib/commit/d06d2edbc526a0b86b02a9c06567e6d938238783) - **fix:** use correct name in package.json _(by Philipp Burckhardt)_
 -   [`839438c`](https://github.com/stdlib-js/stdlib/commit/839438c169dee0c604d78798e1b66369ed3abd79) - **docs:** fix include header path in examples _(by Philipp Burckhardt)_

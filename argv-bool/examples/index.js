@@ -18,7 +18,7 @@
 
 'use strict';
 
-var headerDir = require( './../../argv-bool/lib' );
+var headerDir = require( './../lib' );
 
-console.log(headerDir);
+console.log( headerDir );
 // => <string>
