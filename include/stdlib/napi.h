@@ -65,7 +65,9 @@
 #include "stdlib/napi/create_complex_like.h"
 #include "stdlib/napi/create_double.h"
 #include "stdlib/napi/create_int32.h"
+#include "stdlib/napi/create_int64.h"
 #include "stdlib/napi/create_uint32.h"
+#include "stdlib/napi/create_uint64.h"
 #include "stdlib/napi/export.h"
 
 #endif // !STDLIB_NAPI_H

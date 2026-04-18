@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`14ef294`](https://github.com/stdlib-js/stdlib/commit/14ef29418a428816a95cf35297eac20b040ea6f2) - add macros for creating int64 and uint64 integers
 -   [`0c116e3`](https://github.com/stdlib-js/stdlib/commit/0c116e3df2a889fab1bb64fc80cea014263bb4ea) - add `napi/create-int64` and `napi/create-uint64` [(#11428)](https://github.com/stdlib-js/stdlib/pull/11428)
 -   [`3f6f77a`](https://github.com/stdlib-js/stdlib/commit/3f6f77ac9e6a15fde989b58f0df7c3f456d5e174) - add macro for converting a N-API value to a `uint64_t`
 -   [`2076fc8`](https://github.com/stdlib-js/stdlib/commit/2076fc8a1b00fb2c9e05a99f70b44a3dc6719b21) - add `napi/argv-uint64`
@@ -54,6 +55,7 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`14ef294`](https://github.com/stdlib-js/stdlib/commit/14ef29418a428816a95cf35297eac20b040ea6f2) - **feat:** add macros for creating int64 and uint64 integers _(by Athan Reines)_
 -   [`0c116e3`](https://github.com/stdlib-js/stdlib/commit/0c116e3df2a889fab1bb64fc80cea014263bb4ea) - **feat:** add `napi/create-int64` and `napi/create-uint64` [(#11428)](https://github.com/stdlib-js/stdlib/pull/11428) _(by Gautam Kaushik, Athan Reines)_
 -   [`3f6f77a`](https://github.com/stdlib-js/stdlib/commit/3f6f77ac9e6a15fde989b58f0df7c3f456d5e174) - **feat:** add macro for converting a N-API value to a `uint64_t` _(by Athan Reines)_
 -   [`2076fc8`](https://github.com/stdlib-js/stdlib/commit/2076fc8a1b00fb2c9e05a99f70b44a3dc6719b21) - **feat:** add `napi/argv-uint64` _(by Athan Reines)_
