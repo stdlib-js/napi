@@ -4,12 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-13)
+## Unreleased (2026-04-18)
 
 <section class="features">
 
 ### Features
 
+-   [`3f6f77a`](https://github.com/stdlib-js/stdlib/commit/3f6f77ac9e6a15fde989b58f0df7c3f456d5e174) - add macro for converting a N-API value to a `uint64_t`
+-   [`2076fc8`](https://github.com/stdlib-js/stdlib/commit/2076fc8a1b00fb2c9e05a99f70b44a3dc6719b21) - add `napi/argv-uint64`
+-   [`f3f46e9`](https://github.com/stdlib-js/stdlib/commit/f3f46e92a1f1341905d21b36c1449c649946f01f) - add support for BigInt callback arguments
+-   [`00e73fd`](https://github.com/stdlib-js/stdlib/commit/00e73fd804ebc3ffecc793e65cf7ae6ae9e2f46e) - add support for `BigInt` callback arguments
+-   [`b687a11`](https://github.com/stdlib-js/stdlib/commit/b687a1173c92dc71466139e0022ebe805485bf8d) - add support for BigInt callback arguments
 -   [`b6f7ee1`](https://github.com/stdlib-js/stdlib/commit/b6f7ee1de90f9e477e22d32f197cfe594e6b1d27) - add utility to cast a DataView to a pointer having a specified data type
 -   [`374c9b0`](https://github.com/stdlib-js/stdlib/commit/374c9b0464d61efde4ede0545c953b55ec70e88c) - add `napi/argv-dataview-cast`
 -   [`c38f78b`](https://github.com/stdlib-js/stdlib/commit/c38f78b13826dc56d9316b3afa3915e83bddf90c) - add utility for handling a Node-API DataView argument
@@ -48,6 +53,12 @@ This release closes the following issue:
 
 <details>
 
+-   [`3f6f77a`](https://github.com/stdlib-js/stdlib/commit/3f6f77ac9e6a15fde989b58f0df7c3f456d5e174) - **feat:** add macro for converting a N-API value to a `uint64_t` _(by Athan Reines)_
+-   [`2076fc8`](https://github.com/stdlib-js/stdlib/commit/2076fc8a1b00fb2c9e05a99f70b44a3dc6719b21) - **feat:** add `napi/argv-uint64` _(by Athan Reines)_
+-   [`f3f46e9`](https://github.com/stdlib-js/stdlib/commit/f3f46e92a1f1341905d21b36c1449c649946f01f) - **feat:** add support for BigInt callback arguments _(by Athan Reines)_
+-   [`00e73fd`](https://github.com/stdlib-js/stdlib/commit/00e73fd804ebc3ffecc793e65cf7ae6ae9e2f46e) - **feat:** add support for `BigInt` callback arguments _(by Athan Reines)_
+-   [`850600f`](https://github.com/stdlib-js/stdlib/commit/850600f45391fd4dcdd8996f831ec1becd71fd22) - **docs:** update copy _(by Athan Reines)_
+-   [`b687a11`](https://github.com/stdlib-js/stdlib/commit/b687a1173c92dc71466139e0022ebe805485bf8d) - **feat:** add support for BigInt callback arguments _(by Athan Reines)_
 -   [`12181cb`](https://github.com/stdlib-js/stdlib/commit/12181cb83b3a9a3092d9c41170c31d83db2c0636) - **chore:** use relative path and update spacing _(by Philipp Burckhardt)_
 -   [`b3954ec`](https://github.com/stdlib-js/stdlib/commit/b3954ec4fbcc4d0ad5a3071fb3884555efbeaf4e) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`d06d2ed`](https://github.com/stdlib-js/stdlib/commit/d06d2edbc526a0b86b02a9c06567e6d938238783) - **fix:** use correct name in package.json _(by Philipp Burckhardt)_

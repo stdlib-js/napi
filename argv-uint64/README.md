@@ -2,7 +2,7 @@
 
 @license Apache-2.0
 
-Copyright (c) 2022 The Stdlib Authors.
+Copyright (c) 2026 The Stdlib Authors.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -18,9 +18,9 @@ limitations under the License.
 
 -->
 
-# argv_int32
+# argv_uint64
 
-> Convert a Node-API value to a signed 32-bit integer.
+> Convert a Node-API value to an unsigned 64-bit integer.
 
 <!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
 
@@ -37,7 +37,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-var headerDir = require( '@stdlib/napi/argv-int32' );
+var headerDir = require( '@stdlib/napi/argv-uint64' );
 ```
 
 #### headerDir
@@ -68,7 +68,7 @@ var dir = headerDir;
 ## Examples
 
 ```javascript
-var headerDir = require( '@stdlib/napi/argv-int32' );
+var headerDir = require( '@stdlib/napi/argv-uint64' );
 
 console.log( headerDir );
 // => <string>
@@ -101,15 +101,15 @@ console.log( headerDir );
 ### Usage
 
 ```c
-#include "stdlib/napi/argv_int32.h"
+#include "stdlib/napi/argv_uint64.h"
 ```
 
-#### stdlib_napi_argv_int32( env, value, \*out, \*message, \*err )
+#### stdlib_napi_argv_uint64( env, value, \*out, \*message, \*err )
 
-Converts a Node-API value to a signed 32-bit integer.
+Converts a Node-API value to an unsigned 64-bit integer.
 
 ```c
-#include "stdlib/napi/argv_int32.h"
+#include "stdlib/napi/argv_uint64.h"
 #include <node_api.h>
 #include <stdint.h>
 
@@ -118,9 +118,9 @@ static napi_value addon( napi_env env, napi_callback_info info ) {
 
     // ...
 
-    int32_t out;
+    uint64_t out;
     napi_value err;
-    napi_status status = stdlib_napi_argv_int32( env, value, &out, "Must be a number.", &err );
+    napi_status status = stdlib_napi_argv_uint64( env, value, &out, "Must be a number.", &err );
     assert( status == napi_ok );
     if ( err != NULL ) {
         assert( napi_throw( env, err ) == napi_ok );
@@ -135,27 +135,27 @@ The function accepts the following arguments:
 
 -   **env**: `[in] napi_env` environment under which the function is invoked.
 -   **value**: `[in] napi_value` Node-API value.
--   **out**: `[out] int32_t*` destination for storing output value.
+-   **out**: `[out] uint64_t*` destination for storing output value.
 -   **message**: `[in] char*` error message.
 -   **err**: `[out] napi_value*` pointer for storing a JavaScript error. If not provided a number or `BigInt`, the function sets `err` with a JavaScript error; otherwise, `err` is set to `NULL`.
 
 ```c
-napi_status stdlib_napi_argv_int32( const napi_env env, const napi_value value, int32_t *out, const char *message, napi_value *err );
+napi_status stdlib_napi_argv_uint64( const napi_env env, const napi_value value, uint64_t *out, const char *message, napi_value *err );
 ```
 
 The function returns a `napi_status` status code indicating success or failure (returns `napi_ok` if success).
 
-#### STDLIB_NAPI_ARGV_INT32( env, name, argv, index )
+#### STDLIB_NAPI_ARGV_UINT64( env, name, argv, index )
 
-Macro for converting an add-on callback argument to a signed 32-bit integer.
+Macro for converting an add-on callback argument to an unsigned 64-bit integer.
 
 ```c
-#include "stdlib/napi/argv_int32.h"
+#include "stdlib/napi/argv_uint64.h"
 #include "stdlib/napi/argv.h"
 #include <node_api.h>
 #include <stdint.h>
 
-static int32_t fcn( const int32_t v ) {
+static uint64_t fcn( const uint64_t v ) {
     return v;
 }
 
@@ -166,11 +166,11 @@ static napi_value addon( napi_env env, napi_callback_info info ) {
     STDLIB_NAPI_ARGV( env, info, argv, argc, 1 );
 
     // Convert the first argument to a C type:
-    STDLIB_NAPI_ARGV_INT32( env, value, argv, 0 );
+    STDLIB_NAPI_ARGV_UINT64( env, value, argv, 0 );
 
     // ...
 
-    int32_t out = fcn( value );
+    uint64_t out = fcn( value );
 }
 ```
 

@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2022 The Stdlib Authors.
+* Copyright (c) 2026 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/napi/argv_int64.h"
+#include "stdlib/napi/argv_uint64.h"
 #include "stdlib/assert/napi/status_ok.h"
 #include "stdlib/assert/napi/is_type.h"
 #include <node_api.h>
@@ -24,7 +24,7 @@
 #include <stdbool.h>
 
 /**
-* Converts a Node-API value to a signed 64-bit integer.
+* Converts a Node-API value to an unsigned 64-bit integer.
 *
 * @param env       environment under which the function is invoked
 * @param value     Node-API value
@@ -34,7 +34,7 @@
 * @return          status code indicating success or failure (returns `napi_ok` if success)
 *
 * @example
-* #include "stdlib/napi/argv_int64.h"
+* #include "stdlib/napi/argv_uint64.h"
 * #include <node_api.h>
 * #include <stdint.h>
 *
@@ -43,9 +43,9 @@
 *
 *     // ...
 *
-*     int64_t out;
+*     uint64_t out;
 *     napi_value err;
-*     napi_status status = stdlib_napi_argv_int64( env, value, &out, "Must be a number.", &err );
+*     napi_status status = stdlib_napi_argv_uint64( env, value, &out, "Must be a number.", &err );
 *     assert( status == napi_ok );
 *     if ( err != NULL ) {
 *         assert( napi_throw( env, err ) == napi_ok );
@@ -55,18 +55,20 @@
 *     // ...
 * }
 */
-napi_status stdlib_napi_argv_int64( const napi_env env, const napi_value value, int64_t *out, const char *message, napi_value *err ) {
+napi_status stdlib_napi_argv_uint64( const napi_env env, const napi_value value, uint64_t *out, const char *message, napi_value *err ) {
 	bool lossless = true;
+	int64_t tmp = 0;
 
 	stdlib_assert_napi_value_is_type( env, value, napi_number, message, err );
 	if ( *err == NULL ) {
-		STDLIB_ASSERT_NAPI_STATUS_OK_RET_VALUE( env, napi_get_value_int64( env, value, out ), "", napi_ok )
+		STDLIB_ASSERT_NAPI_STATUS_OK_RET_VALUE( env, napi_get_value_int64( env, value, &tmp ), "", napi_ok )
+		*out = (uint64_t)tmp;
 		return napi_ok;
 	}
 	*err = NULL;
 	stdlib_assert_napi_value_is_type( env, value, napi_bigint, message, err );
 	if ( *err == NULL ) {
-		STDLIB_ASSERT_NAPI_STATUS_OK_RET_VALUE( env, napi_get_value_bigint_int64( env, value, out, &lossless ), "", napi_ok )
+		STDLIB_ASSERT_NAPI_STATUS_OK_RET_VALUE( env, napi_get_value_bigint_uint64( env, value, out, &lossless ), "", napi_ok )
 		return napi_ok;
 	}
 	return napi_ok;

@@ -42,7 +42,9 @@
   "devDependencies": {
     "@stdlib/array": "github:stdlib-js/array#main",
     "@stdlib/assert": "github:stdlib-js/assert#main",
+    "@stdlib/bigint": "github:stdlib-js/bigint#main",
     "@stdlib/complex": "github:stdlib-js/complex#main",
+    "@stdlib/number": "github:stdlib-js/number#main",
     "@stdlib/strided": "github:stdlib-js/strided#main",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
