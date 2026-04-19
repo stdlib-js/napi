@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-18)
+## Unreleased (2026-04-19)
 
 <section class="features">
 
@@ -55,6 +55,7 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`b946af9`](https://github.com/stdlib-js/stdlib/commit/b946af96ccd0456522625f9c708b22abd634428d) - **docs:** update examples _(by Athan Reines)_
 -   [`14ef294`](https://github.com/stdlib-js/stdlib/commit/14ef29418a428816a95cf35297eac20b040ea6f2) - **feat:** add macros for creating int64 and uint64 integers _(by Athan Reines)_
 -   [`0c116e3`](https://github.com/stdlib-js/stdlib/commit/0c116e3df2a889fab1bb64fc80cea014263bb4ea) - **feat:** add `napi/create-int64` and `napi/create-uint64` [(#11428)](https://github.com/stdlib-js/stdlib/pull/11428) _(by Gautam Kaushik, Athan Reines)_
 -   [`3f6f77a`](https://github.com/stdlib-js/stdlib/commit/3f6f77ac9e6a15fde989b58f0df7c3f456d5e174) - **feat:** add macro for converting a N-API value to a `uint64_t` _(by Athan Reines)_
