@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`a875a07`](https://github.com/stdlib-js/stdlib/commit/a875a07d7a08286a571eca3f326786600a713d3f) - add macro for converting a N-API argument to a boolean array
 -   [`886684a`](https://github.com/stdlib-js/stdlib/commit/886684a76a4c0c29c651b2765268ca23b9e6b24e) - add `napi/argv-booleanarray` [(#11587)](https://github.com/stdlib-js/stdlib/pull/11587)
 -   [`14ef294`](https://github.com/stdlib-js/stdlib/commit/14ef29418a428816a95cf35297eac20b040ea6f2) - add macros for creating int64 and uint64 integers
 -   [`0c116e3`](https://github.com/stdlib-js/stdlib/commit/0c116e3df2a889fab1bb64fc80cea014263bb4ea) - add `napi/create-int64` and `napi/create-uint64` [(#11428)](https://github.com/stdlib-js/stdlib/pull/11428)
@@ -56,6 +57,7 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`a875a07`](https://github.com/stdlib-js/stdlib/commit/a875a07d7a08286a571eca3f326786600a713d3f) - **feat:** add macro for converting a N-API argument to a boolean array _(by Athan Reines)_
 -   [`886684a`](https://github.com/stdlib-js/stdlib/commit/886684a76a4c0c29c651b2765268ca23b9e6b24e) - **feat:** add `napi/argv-booleanarray` [(#11587)](https://github.com/stdlib-js/stdlib/pull/11587) _(by Muhammad Haris, Athan Reines)_
 -   [`f3dfe11`](https://github.com/stdlib-js/stdlib/commit/f3dfe11d51efdea95678b1d4a4c3f246d7883598) - **docs:** update descriptions _(by Athan Reines)_
 -   [`e08ef82`](https://github.com/stdlib-js/stdlib/commit/e08ef82b7c3646523071400cbe2d82542b46efce) - **docs:** remove stray `err` handling in examples and enable lint rule [(#11556)](https://github.com/stdlib-js/stdlib/pull/11556) _(by Philipp Burckhardt)_
