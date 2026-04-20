@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-19)
+## Unreleased (2026-04-20)
 
 <section class="features">
 
@@ -55,6 +55,7 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`f3dfe11`](https://github.com/stdlib-js/stdlib/commit/f3dfe11d51efdea95678b1d4a4c3f246d7883598) - **docs:** update descriptions _(by Athan Reines)_
 -   [`e08ef82`](https://github.com/stdlib-js/stdlib/commit/e08ef82b7c3646523071400cbe2d82542b46efce) - **docs:** remove stray `err` handling in examples and enable lint rule [(#11556)](https://github.com/stdlib-js/stdlib/pull/11556) _(by Philipp Burckhardt)_
 -   [`b946af9`](https://github.com/stdlib-js/stdlib/commit/b946af96ccd0456522625f9c708b22abd634428d) - **docs:** update examples _(by Athan Reines)_
 -   [`14ef294`](https://github.com/stdlib-js/stdlib/commit/14ef29418a428816a95cf35297eac20b040ea6f2) - **feat:** add macros for creating int64 and uint64 integers _(by Athan Reines)_
