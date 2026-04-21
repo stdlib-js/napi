@@ -57,6 +57,7 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`e60e084`](https://github.com/stdlib-js/stdlib/commit/e60e084fe34ede1880fe9d49e520d20acf3009df) - **test:** resolve test failure _(by Athan Reines)_
 -   [`9cc43ca`](https://github.com/stdlib-js/stdlib/commit/9cc43caf4751c6e75b892f88348e4837be15a13f) - **chore:** clean-up _(by Athan Reines)_
 -   [`59d0640`](https://github.com/stdlib-js/stdlib/commit/59d0640a16660401392d422f98261c2f9c8cb4be) - **docs:** propagate recent fixes to sibling packages [(#11671)](https://github.com/stdlib-js/stdlib/pull/11671) _(by Philipp Burckhardt)_
 -   [`a875a07`](https://github.com/stdlib-js/stdlib/commit/a875a07d7a08286a571eca3f326786600a713d3f) - **feat:** add macro for converting a N-API argument to a boolean array _(by Athan Reines)_
