@@ -21,7 +21,6 @@
 // MODULES //
 
 var reinterpret = require( '@stdlib/strided/base/reinterpret-boolean' );
-var isBooleanArray = require( '@stdlib/assert/is-booleanarray' );
 var addon = require( './../src/addon.node' );
 
 
@@ -42,10 +41,7 @@ var addon = require( './../src/addon.node' );
 * wrapper( x );
 */
 function wrapper( v ) {
-	if ( isBooleanArray( v ) ) {
-		v = reinterpret( v, 0 );
-	}
-	addon( v );
+	addon( reinterpret( v, 0 ) );
 	return v;
 }
 

@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-20)
+## Unreleased (2026-04-21)
 
 <section class="features">
 
@@ -57,6 +57,7 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`9cc43ca`](https://github.com/stdlib-js/stdlib/commit/9cc43caf4751c6e75b892f88348e4837be15a13f) - **chore:** clean-up _(by Athan Reines)_
 -   [`59d0640`](https://github.com/stdlib-js/stdlib/commit/59d0640a16660401392d422f98261c2f9c8cb4be) - **docs:** propagate recent fixes to sibling packages [(#11671)](https://github.com/stdlib-js/stdlib/pull/11671) _(by Philipp Burckhardt)_
 -   [`a875a07`](https://github.com/stdlib-js/stdlib/commit/a875a07d7a08286a571eca3f326786600a713d3f) - **feat:** add macro for converting a N-API argument to a boolean array _(by Athan Reines)_
 -   [`886684a`](https://github.com/stdlib-js/stdlib/commit/886684a76a4c0c29c651b2765268ca23b9e6b24e) - **feat:** add `napi/argv-booleanarray` [(#11587)](https://github.com/stdlib-js/stdlib/pull/11587) _(by Muhammad Haris, Athan Reines)_
