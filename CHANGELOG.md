@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`89245b4`](https://github.com/stdlib-js/stdlib/commit/89245b4c8f44a596c14a3be6c310d3bcf337e77d) - add `napi/argv-strided-booleanarray` [(#11670)](https://github.com/stdlib-js/stdlib/pull/11670)
 -   [`a875a07`](https://github.com/stdlib-js/stdlib/commit/a875a07d7a08286a571eca3f326786600a713d3f) - add macro for converting a N-API argument to a boolean array
 -   [`886684a`](https://github.com/stdlib-js/stdlib/commit/886684a76a4c0c29c651b2765268ca23b9e6b24e) - add `napi/argv-booleanarray` [(#11587)](https://github.com/stdlib-js/stdlib/pull/11587)
 -   [`14ef294`](https://github.com/stdlib-js/stdlib/commit/14ef29418a428816a95cf35297eac20b040ea6f2) - add macros for creating int64 and uint64 integers
@@ -57,6 +58,7 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`89245b4`](https://github.com/stdlib-js/stdlib/commit/89245b4c8f44a596c14a3be6c310d3bcf337e77d) - **feat:** add `napi/argv-strided-booleanarray` [(#11670)](https://github.com/stdlib-js/stdlib/pull/11670) _(by Muhammad Haris, Athan Reines)_
 -   [`e386223`](https://github.com/stdlib-js/stdlib/commit/e3862232d075065e24d38ab17c4a5676d99eeb13) - **chore:** clean-up native wrappers to ensure consistency with documented return value _(by Athan Reines)_
 -   [`e60e084`](https://github.com/stdlib-js/stdlib/commit/e60e084fe34ede1880fe9d49e520d20acf3009df) - **test:** resolve test failure _(by Athan Reines)_
 -   [`9cc43ca`](https://github.com/stdlib-js/stdlib/commit/9cc43caf4751c6e75b892f88348e4837be15a13f) - **chore:** clean-up _(by Athan Reines)_
