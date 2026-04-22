@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`336a27c`](https://github.com/stdlib-js/stdlib/commit/336a27c121cf09833ec842316b2dd81a5d051b12) - add `napi/argv-strided-booleanarray2d` [(#11710)](https://github.com/stdlib-js/stdlib/pull/11710)
 -   [`823306d`](https://github.com/stdlib-js/stdlib/commit/823306d3149474f02e04c1651a2392fe0666afa5) - add macro for resolving a strided boolean array
 -   [`89245b4`](https://github.com/stdlib-js/stdlib/commit/89245b4c8f44a596c14a3be6c310d3bcf337e77d) - add `napi/argv-strided-booleanarray` [(#11670)](https://github.com/stdlib-js/stdlib/pull/11670)
 -   [`a875a07`](https://github.com/stdlib-js/stdlib/commit/a875a07d7a08286a571eca3f326786600a713d3f) - add macro for converting a N-API argument to a boolean array
@@ -59,6 +60,7 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`336a27c`](https://github.com/stdlib-js/stdlib/commit/336a27c121cf09833ec842316b2dd81a5d051b12) - **feat:** add `napi/argv-strided-booleanarray2d` [(#11710)](https://github.com/stdlib-js/stdlib/pull/11710) _(by Muhammad Haris)_
 -   [`11fe978`](https://github.com/stdlib-js/stdlib/commit/11fe9784619f60b1e31355e2ab06ad55ea90c312) - **chore:** minor clean-up [(#11694)](https://github.com/stdlib-js/stdlib/pull/11694) _(by Philipp Burckhardt, Athan Reines)_
 -   [`823306d`](https://github.com/stdlib-js/stdlib/commit/823306d3149474f02e04c1651a2392fe0666afa5) - **feat:** add macro for resolving a strided boolean array _(by Athan Reines)_
 -   [`89245b4`](https://github.com/stdlib-js/stdlib/commit/89245b4c8f44a596c14a3be6c310d3bcf337e77d) - **feat:** add `napi/argv-strided-booleanarray` [(#11670)](https://github.com/stdlib-js/stdlib/pull/11670) _(by Muhammad Haris, Athan Reines)_
