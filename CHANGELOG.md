@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`d51b365`](https://github.com/stdlib-js/stdlib/commit/d51b3653f31c59a622f9b9f81c3382ced0a31c14) - add APIs for creating a JavaScript boolean from C type
 -   [`d6a48c9`](https://github.com/stdlib-js/stdlib/commit/d6a48c94007aeff269717b2de9747a1ab97669cb) - add `napi/create-boolean` [(#12949)](https://github.com/stdlib-js/stdlib/pull/12949)
 
 </section>
@@ -22,6 +23,7 @@
 
 <details>
 
+-   [`d51b365`](https://github.com/stdlib-js/stdlib/commit/d51b3653f31c59a622f9b9f81c3382ced0a31c14) - **feat:** add APIs for creating a JavaScript boolean from C type _(by Athan Reines)_
 -   [`d6a48c9`](https://github.com/stdlib-js/stdlib/commit/d6a48c94007aeff269717b2de9747a1ab97669cb) - **feat:** add `napi/create-boolean` [(#12949)](https://github.com/stdlib-js/stdlib/pull/12949) _(by Muhammad Haris)_
 
 </details>
@@ -34,8 +36,9 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Muhammad Haris
 
 </section>
