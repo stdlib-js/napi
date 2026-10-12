@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-08)
+## Unreleased (2026-10-12)
 
 <section class="features">
 
@@ -23,6 +23,7 @@
 
 <details>
 
+-   [`bf33e96`](https://github.com/stdlib-js/stdlib/commit/bf33e96297db9e2a73050ccb1c6e87726f1307da) - **docs:** fix heading levels [(#15939)](https://github.com/stdlib-js/stdlib/pull/15939) _(by Philipp Burckhardt)_
 -   [`d51b365`](https://github.com/stdlib-js/stdlib/commit/d51b3653f31c59a622f9b9f81c3382ced0a31c14) - **feat:** add APIs for creating a JavaScript boolean from C type _(by Athan Reines)_
 -   [`d6a48c9`](https://github.com/stdlib-js/stdlib/commit/d6a48c94007aeff269717b2de9747a1ab97669cb) - **feat:** add `napi/create-boolean` [(#12949)](https://github.com/stdlib-js/stdlib/pull/12949) _(by Muhammad Haris)_
 
@@ -36,10 +37,11 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Muhammad Haris
+-   Philipp Burckhardt
 
 </section>
 
